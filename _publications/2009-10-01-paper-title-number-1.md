@@ -6,8 +6,7 @@ excerpt: ''
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR 2023)'
 paperurl: 'https://doi.org/10.1145/3585088.3589386'
-citation: citation: 'Muassir Ibrahim Awan, and Seokhee Jeon "Surface Texture Classification Based on Transformer Networ"'
-
+citation: 'Bengisu Cagiltay, Bilge Mutlu, and Margaret Kerr. 2023 (in press). Surface Texture Classification Based on Transformer Network. Association for Computing Machinery, New York, NY, USA.'
 ---
 
 [Download paper here](http://academicpages.github.io/files/paper2.pdf)
