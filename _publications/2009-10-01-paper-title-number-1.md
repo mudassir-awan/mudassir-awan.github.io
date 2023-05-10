@@ -11,7 +11,7 @@ citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2023 (in press). Surface Texture
 
 This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://mudassir-awan.github.io/files/paper1.pdf)
+[Download paper here](http://mudassir-awan.github.io/files/SurfaceTeture.pdf)
 
 <!-- [Download paper here](https://bengisucagiltay.github.io/files/IDC23_Family_Systems_Theory_BengisuCagiltay.pdf) -->
 
