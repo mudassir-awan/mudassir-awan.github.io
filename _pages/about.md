@@ -25,11 +25,3 @@ Recent Updates
 - **Jan 2023    :**  One paper got accepted at [HCI Korea-2023](https://hcikorea.org/) conference on "Hatic Texture Classification using Transformers".
 
 
-
-
-
-
-
-
-
-
