@@ -14,6 +14,8 @@ Recent Updates
 ======
 
 - Our Paper Accepted in Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
+- Our one more paper Paper Accepted in Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
+
 
 
 
