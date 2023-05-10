@@ -3,13 +3,15 @@ title: "Surface Texture Classification Based on Transformer Network"
 collection: publications
 permalink: /publications/IDC23-short
 excerpt: ''
-date: 2023-05-19
+date: 2023-06-19
 venue: 'International Conference on Ubiquitous Robots (UR 2023)'
 paperurl: 'https://doi.org/10.1145/3585088.3589386'
 citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2023 (in press). Surface Texture Classification Based on Transformer Network. Seoul, South Korea.'
 ---
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+This paper is about the number 2. The number 3 is left for future work.
+
+[Download paper here](http://mudassir-awan.github.io/files/paper1.pdf)
 
 <!-- [Download paper here](https://bengisucagiltay.github.io/files/IDC23_Family_Systems_Theory_BengisuCagiltay.pdf) -->
 
