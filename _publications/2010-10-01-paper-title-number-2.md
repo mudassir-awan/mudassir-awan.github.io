@@ -6,7 +6,7 @@ excerpt: ''
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR 2023)'
 paperurl: 'https://doi.org/10.1145/3585058.3589556'
-citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2023 (in press). Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering. Seoul, South Korea.'
+citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2023 (in press). Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering. Seoul,South Korea.'
 ---
 
 This paper is about the number 3. The number 3 is left for future work.
