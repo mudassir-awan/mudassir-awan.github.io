@@ -15,9 +15,9 @@ This is the front page of a website that is powered by the [academicpages templa
 
 Recent Updates
 ======
-- **April 20223 :**  One paper got accepted at [UR-2023](https://2023.ubiquitousrobots.org/) conference on **"Drone Haptics for 3DOF Force Feedback"**.
+- **April 20223 :**  One paper got accepted at [UR-2023](https://2023.ubiquitousrobots.org/) conference on "Drone Haptics for 3DOF Force Feedback".
 
-- **Feb 20223   :**  One paper got accepted at [ICRA-2023](https://www.icra2023.org/) conference titled **"Model Mediated Teleoperation"**.
+- **Feb 20223   :**  One paper got accepted at [ICRA-2023](https://www.icra2023.org/) conference titled "Model Mediated Teleoperation".
 
 - **Jan 2023    :**  One paper got accepted at [HCI Korea-2023](https://hcikorea.org/) conference on "Hatic Texture Classification using Transformers".
 
