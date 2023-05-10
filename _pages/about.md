@@ -13,7 +13,10 @@ This is the front page of a website that is powered by the [academicpages templa
 Recent Updates
 ======
 
--  One paper got accepted at Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference titled **"Model Mediated teleoperation"**.
+- **Sep 2022  :**  One paper got accepted at [ICRA] (http://icra.org) conference titled **"Model Mediated teleoperation"**.
+
+- **Jan 2022  :**  One paper got accepted at [Korea-HCI] (http://stuartgeiger.com) conference on **"Hatic Texture Classification using Transformers"**.
+
 - Our one more paper Paper Accepted in Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
 
 
