@@ -1,15 +1,21 @@
 ---
-title: "Paper Title Number 2"
+title: "Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publications/IDC23-short
+excerpt: ''
+date: 2023-06-19
+venue: 'International Conference on Ubiquitous Robots (UR 2023)'
+paperurl: 'https://doi.org/10.1145/3585088.3589386'
+citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2023 (in press). Model-Mediated Teleoperation for Remote Haptic Texture Sharing:
+Initial Study of Online Texture Modeling and Rendering. Seoul, South Korea.'
 ---
+
 This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](http://mudassir-awan.github.io/files/MMT.pdf)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+<!-- [Download paper here](https://bengisucagiltay.github.io/files/IDC23_Family_Systems_Theory_BengisuCagiltay.pdf) -->
+
+<!-- [Watch our Paper Talk Here]() -->
+
+<!-- [![Watch our Paper Talk Here]() --> 
