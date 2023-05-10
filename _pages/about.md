@@ -15,7 +15,7 @@ This is the front page of a website that is powered by the [academicpages templa
 
 Recent Updates
 ======
-- **April 20223 :**  One paper got accepted at [UR-2023](https://2023.ubiquitousrobots.org/) conference on "Drone Haptics for 3DOF Force Feedback".
+- **April 20223 :**  One paper got accepted at [Ubiquitous Robots (UR 2023)](https://2023.ubiquitousrobots.org/) conference on "Drone Haptics for 3DOF Force Feedback".
 
 - **Feb 20223   :**  One paper got accepted at [ICRA-2023](https://www.icra2023.org/) conference titled "Model Mediated Teleoperation".
 
