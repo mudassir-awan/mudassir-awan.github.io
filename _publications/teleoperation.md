@@ -1,7 +1,7 @@
 ---
 title: "Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering"
 collection: publications
-permalink: /publications/IDC23-short
+permalink: /publications/teleoperation
 excerpt: ''
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR 2021)'
