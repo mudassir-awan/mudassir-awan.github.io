@@ -13,7 +13,7 @@ This is the front page of a website that is powered by the [academicpages templa
 Recent Updates
 ======
 
-- Our Paper Accepted in Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
+-  May 2023  : One paper got accepted at Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
 - Our one more paper Paper Accepted in Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
 
 
