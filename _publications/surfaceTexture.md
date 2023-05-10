@@ -1,7 +1,7 @@
 ---
 title: "Surface Texture Classification Based on Transformer Network"
 collection: publications
-permalink: /publications/IDC23-short
+permalink: /publications/surfaceTexture
 excerpt: ''
 date: 2023-06-19
 venue: 'International Conference on Ubiquitous Robots (UR 2023)'
