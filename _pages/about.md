@@ -13,7 +13,7 @@ This is the front page of a website that is powered by the [academicpages templa
 Recent Updates
 ======
 
-- Our Paper Accepted in Korea-HCI conference.
+- Our Paper Accepted in Korea-HCI [stuartgeiger.com](http://stuartgeiger.com) conference.
 
 
 
