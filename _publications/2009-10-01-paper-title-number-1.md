@@ -1,15 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "Family Theories in Child-Robot Interactions: Understanding Families as a Whole for Child-Robot Interaction Design"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'HCI Korea'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>HCI Korea</i>. 1(1).'
+permalink: /publications/IDC23-short
+excerpt: ''
+date: 2023-06-19
+venue: 'Proceedings of the interaction design and children conference'
+paperurl: 'https://doi.org/10.1145/3585088.3589386'
+citation: 'Bengisu Cagiltay, Bilge Mutlu, and Margaret Kerr. 2023 (in press). Family Theories in Child-Robot Interactions: Understanding Families as a Whole for Child-Robot Interaction Design. In Interaction Design and Children (IDC 23). Association for Computing Machinery, New York, NY, USA.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://bengisucagiltay.github.io/files/IDC23_Family_Systems_Theory_BengisuCagiltay.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>HCI Korea</i>. 1(1).
+<!-- [Watch our Paper Talk Here]() -->
+
+<!-- [![Watch our Paper Talk Here]() -->
