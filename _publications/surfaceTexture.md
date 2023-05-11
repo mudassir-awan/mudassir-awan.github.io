@@ -5,7 +5,7 @@ permalink: /publications/surfaceTexture
 excerpt: ''
 date: 2023-06-19
 venue: 'International Conference on Ubiquitous Robots (UR 2023)'
-paperurl: 'https://doi.org/10.1145/3585088.3589386'
+paperurl: 'http://mudassir-awan.github.io/files/SurfaceTexture.pdf'
 citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2023 (in press). Surface Texture Classification Based on Transformer Network. Seoul, South Korea.'
 ---
 
