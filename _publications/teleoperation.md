@@ -5,11 +5,11 @@ permalink: /publications/teleoperation
 excerpt: ''
 date: 2021-05-19
 venue: 'International Conference on Ubiquitous Robots (UR 2021)'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'http://mudassir-awan.github.io/files/MMT.pdf'
 citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2021 (in press). Model-Mediated Teleoperation for Remote Haptic Texture Sharing:Initial Study of Online Texture Modeling and Rendering. Seoul, South Korea.'
 ---
 
-This paper is about the number 3. The number 3 is left for future work.
+This paper is about the number 1. The number 3 is left for future work.
 
 [Download paper here](http://mudassir-awan.github.io/files/MMT.pdf)
 
