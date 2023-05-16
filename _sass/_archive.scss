@@ -206,7 +206,7 @@
     }
 
     @include breakpoint($small) {
-      text-align: right;
+      text-align:justify;
 
       .archive__item-teaser {
         @include span(5 of 12 rtl);
@@ -229,7 +229,7 @@
     }
 
     @include breakpoint($small) {
-      text-align: center;
+      text-align: justify;
 
       .archive__item-teaser {
         margin: 0 auto;
