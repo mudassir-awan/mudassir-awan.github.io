@@ -38,10 +38,6 @@ redirect_from:
 </ul> -->
 
 
-
-
-
-
 <!-- **<u>News</u>** -->
 <h2>News</h2>
 
@@ -54,7 +50,9 @@ redirect_from:
 
 
 
-**<u>Selected Publications</u>**
+<!-- **<u>Selected Publications</u>** -->
+<h2>Selected Publications</h2>
+
 ======
 You can also find the full list of my publications [here](https://mudassir-awan.github.io/publications/)
 
