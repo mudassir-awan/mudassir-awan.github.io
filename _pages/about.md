@@ -31,4 +31,6 @@ News
 Selected Publications
 ======
 
-- **ICRA  :** [DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) 
+- **ICRA  :** [Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study    of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation) 
+
+- **UR    :** [DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-   DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) 
