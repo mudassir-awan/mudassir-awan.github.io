@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- <h2>About me</h2> -->
-<p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px;">
+<!-- <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px;">
   I'm a research assistant at <a href="http://haptics.khu.ac.kr/">Haptics and Virtual Reality Lab</a> and a MS-PHD combined candidate at <a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a> in South Korea. I'm advised by <a href="http://haptics.khu.ac.kr/jeon/">Professor Seokhee Jeon</a> and work on data-driven modeling and rendering of haptic properties to generate realistic haptic feedback in VR environments.
 </p>
 
@@ -17,6 +17,20 @@ redirect_from:
 </p>
 
 <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px;">
+  Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
+</p> -->
+
+
+
+<p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px; padding-left: 20px; padding-right: 20px;">
+  I'm a research assistant at <a href="http://haptics.khu.ac.kr/">Haptics and Virtual Reality Lab</a> and a MS-PHD combined candidate at <a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a> in South Korea. I'm advised by <a href="http://haptics.khu.ac.kr/jeon/">Professor Seokhee Jeon</a> and work on data-driven modeling and rendering of haptic properties to generate realistic haptic feedback in VR environments.
+</p>
+
+<p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px; padding-left: 20px; padding-right: 20px;">
+  My research primarily focuses on modeling and rendering of haptic textures using both online and offline approaches. I specialize in handling complex time series data and applying signal processing techniques. I have also utilized these skills in the context of teleoperation systems, where real-time and accurate rendering of haptic textures is crucial for remote operators.
+</p>
+
+<p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px; padding-left: 20px; padding-right: 20px;">
   Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
 </p>
 
