@@ -28,7 +28,7 @@ Additionally, I explore the development of novel encountered type haptic devices
 
 
 
-Selected Publications
+**Selected Publications**
 
 
 [Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **( ICRA )** 
