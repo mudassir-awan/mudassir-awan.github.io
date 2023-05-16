@@ -35,6 +35,8 @@ You can also find the full list of my publications [here](https://mudassir-awan.
 
 [Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **(ICRA)** 
 
+I work on data-driven modeling and rendering of <span style="color:blue"><u>haptic</u></span> properties.
+
 This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
 [Download paper here](http://mudassir-awan.github.io/files/MMT.pdf)
 
