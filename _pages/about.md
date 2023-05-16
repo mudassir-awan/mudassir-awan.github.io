@@ -30,6 +30,5 @@ News
 
 Selected Publications
 ======
-<img src="/images/profile.png"  width="200" height="200">
 
-[DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) 
+- **ICRA  :** [DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) 
