@@ -82,7 +82,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <a href="http://mudassir-awan.github.io/files/MMT.pdf">Download paper here</a>
     </p>
   </div>
-  <div style="flex: 1; text-align: right;">
+  <div style="flex: 1; display: flex; justify-content: flex-end; align-items: flex-start;">
     <img src="/images/profile.png" alt="Profile Picture" width="200" height="200">
   </div>
 </div>
@@ -97,7 +97,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <a href="http://mudassir-awan.github.io/files/DroneHaptics.pdf">Download paper here</a>
     </p>
   </div>
-  <div style="flex: 1; text-align: right;">
+  <div style="flex: 1; display: flex; justify-content: flex-end; align-items: flex-start;">
     <img src="/images/profile.png" alt="Profile Picture" width="200" height="200">
   </div>
 </div>
