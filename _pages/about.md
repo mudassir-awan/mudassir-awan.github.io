@@ -30,5 +30,4 @@ News
 
 Selected Publications
 ======
-I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering atI will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at
-
+[DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) 
