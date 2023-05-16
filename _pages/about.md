@@ -29,6 +29,7 @@ Additionally, I explore the development of novel encountered type haptic devices
 
 
 **Selected Publications**
+You can also find the full list of my publications [here](https://mudassir-awan.github.io/publications/)
 
 
 [Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **(ICRA)** 
@@ -38,4 +39,4 @@ This paper presents the first model-mediated teleoperation (MMT) framework capab
 
 [DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) **(UR)** 
 
-This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
+This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback. [Download paper here](http://mudassir-awan.github.io/files/DroneHaptics.pdf)
