@@ -31,8 +31,8 @@ Additionally, I explore the development of novel encountered type haptic devices
 Selected Publications
 
 
-- **ICRA  :** [Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation) 
+[Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **( ICRA )** 
 
 This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
 
-- **UR    :** [DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) 
+[DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone)  **( UR )** 
