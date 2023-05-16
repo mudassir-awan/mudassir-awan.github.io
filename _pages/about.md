@@ -76,7 +76,7 @@ You can also find the full list of my publications [<span style="color:blue">her
 
     <div style="display: flex;">
       <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
+        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 30px;">
       </div>
       <div style="flex: 3;">
         <p>
@@ -95,7 +95,7 @@ You can also find the full list of my publications [<span style="color:blue">her
 
     <div style="display: flex;">
       <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
+        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 20px;">
       </div>
       <div style="flex: 3;">
         <p>
