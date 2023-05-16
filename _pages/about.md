@@ -73,7 +73,7 @@ This paper introduces a dome-shaped haptic drone with a hemispherical cage made 
 You can also find the full list of my publications [<span style="color:blue">here</span>](https://mudassir-awan.github.io/publications/)
 
 <div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1; text-align: justify;">
+  <div style="flex: 3; text-align: justify;">
     <h3>Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering</h3>
 
     <p>
@@ -88,7 +88,7 @@ You can also find the full list of my publications [<span style="color:blue">her
 </div>
 
 <div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1; text-align: justify;">
+  <div style="flex: 3; text-align: justify;">
     <h3>DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</h3>
 
     <p>
