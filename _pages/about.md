@@ -25,8 +25,8 @@ redirect_from:
 
 <!-- **<u>News</u>** -->
 <h2>News</h2>
-
-<ul style="margin-bottom: 20px; text-align: justify; font-size: 16px; ">
+<!-- <ul style="margin-bottom: 20px; text-align: justify; font-size: 16px; "> -->
+<ul style="margin-bottom: 20px;  font-size: 16px; ">
   <li style="line-height: 1.5;">I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at <a href="https://www.icra2023.org/">ICRA-2023</a> on 1st June, 2023 at Excel London.</li>
   <li style="line-height: 1.5;">One paper got accepted at <a href="https://2023.ubiquitousrobots.org/">UR-2023</a> conference on "Drone Haptics for 3DOF Force Feedback" (April 2023).</li>
   <li style="line-height: 1.5;">One paper got accepted at <a href="https://www.icra2023.org/">ICRA-2023</a> conference titled "Model Mediated Teleoperation for Texture rendering" (Feb 2023).</li>
