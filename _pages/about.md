@@ -14,6 +14,7 @@ My research primarily focuses on modeling and rendering of haptic textures using
 
 Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
 
+<div style="line-height: 3.5;">
 
 
 **<u>News</u>**
