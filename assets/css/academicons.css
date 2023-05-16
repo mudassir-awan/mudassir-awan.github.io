@@ -228,7 +228,7 @@
 }
 .ai-fw {
   width: 1.28571429em;
-  text-align: center;
+  text-align: justify;
 }
 .ai-ul {
   padding-left: 0;
@@ -243,7 +243,7 @@
   left: -2.14285714em;
   width: 2.14285714em;
   top: 0.14285714em;
-  text-align: center;
+  text-align: justify;
 }
 .ai-li.fa-lg {
   left: -1.85714286em;
@@ -288,7 +288,7 @@
 }
 .fa-fw {
   width: 1.28571429em;
-  text-align: center;
+  text-align: justify;
 }
 .fa-ul {
   padding-left: 0;
@@ -303,7 +303,7 @@
   left: -2.14285714em;
   width: 2.14285714em;
   top: 0.14285714em;
-  text-align: center;
+  text-align: justify;
 }
 .fa-li.fa-lg {
   left: -1.85714286em;
