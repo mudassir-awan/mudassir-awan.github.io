@@ -76,12 +76,12 @@ You can also find the full list of my publications [<span style="color:blue">her
 
     <div style="display: flex;">
       <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200">
+        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
       </div>
       <div style="flex: 3;">
         <p>
           This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
-          
+          <br>
           <a href="http://mudassir-awan.github.io/files/MMT.pdf">Download paper here</a>
         </p>
       </div>
@@ -95,19 +95,18 @@ You can also find the full list of my publications [<span style="color:blue">her
 
     <div style="display: flex;">
       <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200">
+        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
       </div>
       <div style="flex: 3;">
         <p>
           This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
-          
+          <br>
           <a href="http://mudassir-awan.github.io/files/DroneHaptics.pdf">Download paper here</a>
         </p>
       </div>
     </div>
   </div>
 </div>
-
 
 
 <!-- **<u>Selected Publications</u>**
