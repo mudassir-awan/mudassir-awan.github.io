@@ -20,8 +20,11 @@ Additionally, I explore the development of novel encountered type haptic devices
 News 
 ======
 - I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at [ICRA-2023](https://www.icra2023.org/) on **1st JUne, 2023** at Excel London.
--One paper got accepted at [UR-2023](https://2023.ubiquitousrobots.org/) conference on "Drone Haptics for 3DOF Force Feedback"  **(April 20223)**.
-- **Feb 20223   :**  One paper got accepted at [ICRA-2023](https://www.icra2023.org/) conference titled "Model Mediated Teleoperation for Texture rendering".
-- **Jan 2023    :**  One paper got accepted at [HCI Korea-2023](https://hcikorea.org/) conference on "Hatic Texture Classification using Transformers".
+
+- One paper got accepted at [UR-2023](https://2023.ubiquitousrobots.org/) conference on "Drone Haptics for 3DOF Force Feedback"  **(April 20223)**.
+
+- One paper got accepted at [ICRA-2023](https://www.icra2023.org/) conference titled "Model Mediated Teleoperation for Texture rendering"**(Feb 20223)**.
+
+- One paper got accepted at [HCI Korea-2023](https://hcikorea.org/) conference on "Hatic Texture Classification using Transformers" **(Jan 2023)**.
 
 
