@@ -28,7 +28,7 @@ Additionally, I explore the development of novel encountered type haptic devices
 
 
 
-**Selected Publications**
+**<u>Selected Publications</u>**
 
 You can also find the full list of my publications [here](https://mudassir-awan.github.io/publications/)
 
