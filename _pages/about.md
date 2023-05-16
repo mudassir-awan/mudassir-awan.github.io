@@ -68,11 +68,12 @@ This paper introduces a dome-shaped haptic drone with a hemispherical cage made 
 
 
 <!-- **<u>Selected Publications</u>** -->
+<!-- **<u>Selected Publications</u>** -->
 <h2>Selected Publications</h2>
 
 You can also find the full list of my publications [<span style="color:blue">here</span>](https://mudassir-awan.github.io/publications/)
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
       <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
@@ -88,7 +89,7 @@ You can also find the full list of my publications [<span style="color:blue">her
   </tr>
 </table>
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
       <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
@@ -103,6 +104,7 @@ You can also find the full list of my publications [<span style="color:blue">her
     </td>
   </tr>
 </table>
+
 
 
 <!-- <h2>Selected Publications</h2>
