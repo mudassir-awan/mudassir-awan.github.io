@@ -74,11 +74,11 @@ You can also find the full list of my publications [<span style="color:blue">her
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; text-align: justify;">
-    <h3>Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering</h3>
+    <h3>[Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **(ICRA)** </h3>
 
     <div style="display: flex;">
       <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="200" height="200">
+        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200">
       </div>
       <div style="flex: 3;">
         <p>
@@ -93,11 +93,12 @@ You can also find the full list of my publications [<span style="color:blue">her
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; text-align: justify;">
-    <h3>DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</h3>
+    <h3>[DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) **(UR)** 
+</h3>
 
     <div style="display: flex;">
       <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="200" height="200">
+        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200">
       </div>
       <div style="flex: 3;">
         <p>
