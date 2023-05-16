@@ -16,7 +16,7 @@ Additionally, I explore the development of novel encountered type haptic devices
 
 
 
-**News** 
+**<u>News</u>**
 
 - I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at [ICRA-2023](https://www.icra2023.org/) on [1st June,2023 at Excel London](https://www.icra2023.org/programme-1fc3).
 
