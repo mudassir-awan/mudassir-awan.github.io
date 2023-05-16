@@ -84,9 +84,11 @@ You can also find the full list of my publications [<span style="color:blue">her
     </p>
   </div>
   <div style="flex: 1;">
-    <img src="profile.png" alt="Publication Image 1" style="width: 200px;">
+    <img src="/images/profile.png" alt="Profile Picture" width="200" height="200">
+
   </div>
 </div>
+
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
@@ -99,6 +101,7 @@ You can also find the full list of my publications [<span style="color:blue">her
     </p>
   </div>
   <div style="flex: 1;">
-    <img src="profile.png" alt="Publication Image 2" style="width: 200px;">
+    <img src="/images/profile.png" alt="Profile Picture" width="200" height="200">
+
   </div>
 </div>
