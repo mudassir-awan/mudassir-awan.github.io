@@ -22,13 +22,6 @@ redirect_from:
   Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
 </p>
 
-<!-- **<u>About me</u>**
-
-<ul style="font-size: 16px; list-style-type: none;">
-  <li>I'm a research assistant at <a href="http://haptics.khu.ac.kr/">Haptics and Virtual Reality Lab</a> and a MS-PHD combined candidate at <a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a> in South Korea. I'm advised by <a href="http://haptics.khu.ac.kr/jeon/">Professor Seokhee Jeon</a> and work on data-driven modeling and rendering of haptic properties to generate realistic haptic feedback in VR environments.</li>
-  <li>My research primarily focuses on modeling and rendering of haptic textures using both online and offline approaches. I specialize in handling complex time series data and applying signal processing techniques. I have also utilized these skills in the context of teleoperation systems, where real-time and accurate rendering of haptic textures is crucial for remote operators.</li>
-  <li>Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.</li>
-</ul> -->
 
 
 <!-- **<u>News</u>** -->
@@ -46,12 +39,11 @@ redirect_from:
 <!-- **<u>Selected Publications</u>** -->
 <h2>Selected Publications</h2>
 
-You can also find the full list of my publications <span style="color:blue"><u>here</u></span> (https://mudassir-awan.github.io/publications/)
+You can also find the full list of my publications [<span style="color:blue"><u>here</u></span>](https://mudassir-awan.github.io/publications/)
 
 
 [Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **(ICRA)** 
 
-I work on data-driven modeling and rendering of <span style="color:blue"><u>haptic</u></span> properties.
 
 This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
 [Download paper here](http://mudassir-awan.github.io/files/MMT.pdf)
