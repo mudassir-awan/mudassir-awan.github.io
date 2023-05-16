@@ -15,7 +15,6 @@ My research primarily focuses on modeling and rendering of haptic textures using
 Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
 
 
-================================================
 
 News 
 ======
@@ -28,7 +27,8 @@ News
 - One paper got accepted at [HCI Korea-2023](https://hcikorea.org/) conference on "Hatic Texture Classification using Transformers" **(Jan 2023)**.
 
 
+
 Selected Publications
 ======
-I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at
+I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering atI will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at
 
