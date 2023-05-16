@@ -88,7 +88,7 @@ You can also find the full list of my publications [<span style="color:blue">her
   </tr>
 </table>
 
-<table style="width: 100%;">
+<table style="width: 100%;", border="0">
   <tr>
     <td style="width: 25%; text-align: center;">
       <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 10px;">
