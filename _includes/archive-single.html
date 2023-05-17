@@ -43,6 +43,18 @@
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
 
+    {% if post.citation and post.paperurl %}
+    <p>Recommended citation: {% assign boldedCitation = post.citation | replace: 'Mudassir', '<strong>Mudassir</strong>' %} {{ boldedCitation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+    {% elsif post.citation %}
+      <p>Recommended citation: {{ post.citation | replace: 'Mudassir', '<strong>Mudassir</strong>' }}</p>
+    {% elsif post.paperurl %}
+      <p>Download <a href="{{ post.paperurl }}"><u>here</u></a></p>
+    {% endif %}
+  
+
+
+
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
