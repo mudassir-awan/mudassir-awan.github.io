@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.E. in Electronics Engineering, PAF-Karachi Institue of Economics and Technology, 2016
+
 * MS-Ph.D Combined in Computer Science, Kyung Hee University, 2024 (expected)
+* B.E. in Electronics Engineering, PAF-Karachi Institue of Economics and Technology, 2016
 
 Work experience
 ======
