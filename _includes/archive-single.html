@@ -35,13 +35,13 @@
     </h2>
     
     
-    {% if post.citation and post.paperurl %}
+    <!-- {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-    {% endif %}
+    {% endif %} -->
 
     {% if post.citation and post.paperurl %}
     <p>Recommended citation: {% assign boldedCitation = post.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
