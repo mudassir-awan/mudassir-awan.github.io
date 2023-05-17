@@ -50,7 +50,7 @@ layout: default
 
 
 
-        {% if page.citation and page.paperurl %}
+        <!-- {% if page.citation and page.paperurl %}
           <p>{% assign boldedCitation = page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
           <p>{{ page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
@@ -62,28 +62,10 @@ layout: default
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+        {% endif %} -->
 
 
-        {% if post.citation and post.paperurl %}
-          <p style="line-height: 0.5;">{% assign boldedCitation = post.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-        {% elsif post.citation %}
-          <p style="line-height: 0.5;">{{ post.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
-        {% elsif post.paperurl %}
-          <p style="line-height: 0.5;">Download <a href="{{ post.paperurl }}"><u>here</u></a></p>
-        {% endif %}
-  
-        {% if post.read_time %}
-          <p class="page__meta" style="line-height: 0.5;"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-        {% endif %}
-  
-        {% if post.collection == 'teaching' %}
-          <p style="line-height: 0.5;">{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p style="line-height: 0.5;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date %}
-          <p class="page__date" style="line-height: 0.5;"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+
   
         {% if post.excerpt and site.read_more != 'enabled' %}
           <p class="archive__item-excerpt" itemprop="description" style="line-height: 0.5;">{{ post.excerpt | markdownify }}</p>
