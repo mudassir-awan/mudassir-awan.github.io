@@ -9,7 +9,7 @@ paperurl: 'http://mudassir-awan.github.io/files/DroneHaptics.pdf'
 citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2021 (in press). DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback. Seoul, South Korea.'
 ---
 
-This paper is about the number 3. The number 3 is left for future work.
+This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
 
 [Download paper here](http://mudassir-awan.github.io/files/DroneHaptics.pdf)
 
