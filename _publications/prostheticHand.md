@@ -13,8 +13,3 @@ This paper introduces a dome-shaped haptic drone with a hemispherical cage made 
 
 [Download paper here](http://mudassir-awan.github.io/files/prostheticHand.pdf)
 
-<!-- [Download paper here](https://bengisucagiltay.github.io/files/IDC23_Family_Systems_Theory_BengisuCagiltay.pdf) -->
-
-<!-- [Watch our Paper Talk Here]() -->
-
-<!-- [![Watch our Paper Talk Here]() --> 

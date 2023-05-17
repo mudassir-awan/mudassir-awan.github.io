@@ -13,8 +13,3 @@ An acceleration signal is generated when a person interacts with the surface of 
 
 [Download paper here](http://mudassir-awan.github.io/files/SurfaceTexture.pdf)
 
-<!-- [Download paper here](https://bengisucagiltay.github.io/files/IDC23_Family_Systems_Theory_BengisuCagiltay.pdf) -->
-
-<!-- [Watch our Paper Talk Here]() -->
-
-<!-- [![Watch our Paper Talk Here]() --> 
