@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. in Electronics Engineering, PAF-Karachi Institue of Economics and Technology, 2016
+* MS-Ph.D Combined in Computer Science, Kyung Hee University, 2024 (expected)
 
 Work experience
 ======
@@ -29,12 +28,10 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Haptics 
+* Perception
+* Time Sereies Data Analysis
+* Digital Signal filtering
 
 Publications
 ======
@@ -42,18 +39,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewed one paper in UR - 2023
+* Student Vlouenteer in Asia Haptics 2018
