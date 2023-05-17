@@ -3,13 +3,13 @@ title: "Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial 
 collection: publications
 permalink: /publications/teleoperation
 excerpt: ''
-date: 2021-05-19
-venue: 'International Conference on Ubiquitous Robots (UR 2021)'
+date: 2023-05-19
+venue: 'The International Conference on Robotics and Automation (ICRA)'
 paperurl: 'http://mudassir-awan.github.io/files/MMT.pdf'
-citation: 'Mudassir Ibrahim Awan, Jeon Seokhee. 2021 (in press). Model-Mediated Teleoperation for Remote Haptic Texture Sharing:Initial Study of Online Texture Modeling and Rendering. Seoul, South Korea.'
+citation: 'Mudassir Ibrahim Awan, Tatyana Ogay, Waseem Hassan, Dongbeom Ko, Sungjoo Kang, Seokhee Jeon. 2023 (in press). Model-Mediated Teleoperation for Remote Haptic Texture Sharing:Initial Study of Online Texture Modeling and Rendering. Seoul, South Korea.'
 ---
 
-This paper is about the number 1. The number 3 is left for future work.
+This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
 
 [Download paper here](http://mudassir-awan.github.io/files/MMT.pdf)
 
