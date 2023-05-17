@@ -44,9 +44,9 @@
     {% endif %} -->
 
     {% if post.citation and post.paperurl %}
-    <p>Recommended citation: {% assign boldedCitation = post.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+    <p>{% assign boldedCitation = post.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation | replace: 'Mudassir', '<strong>Mudassir</strong>' }}</p>
+      <p>{{ post.citation | replace: 'Mudassir Ibrahim Awan, '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
     {% elsif post.paperurl %}
       <p>Download <a href="{{ post.paperurl }}"><u>here</u></a></p>
     {% endif %}
