@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/prostheticHand
 excerpt: ''
 date: 2016-12-22
-venue: 'International Conference on Ubiquitous Robots (ICRAI)'
+venue: 'International Conference on Robotics and Artificial Intelligence(ICRAI)'
 paperurl: 'http://mudassir-awan.github.io/files/prostheticHand.pdf'
 citation: 'Muhammad Nabeel, Kashan Aqeel, Muhammad Noman Ashraf, Mudassir Ibrahim Awan, and Muhammad Khurram. Vibrotactile stimulation for 3D printed prosthetic hand.Rawalpindi, Pakistan'
 ---
