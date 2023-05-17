@@ -5,7 +5,7 @@ permalink: /publications/drone
 excerpt: ''
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR)'
-paperurl: 'http://mudassir-awan.github.io/files/DroneHaptics.pdf'
+paperurl: ''
 citation: 'Mudassir Ibrahim Awan, Ahsan Raza, and Jeon Seokhee. 2023 (in press). DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback. Seoul, South Korea.'
 ---
 
