@@ -6,7 +6,7 @@ excerpt: ''
 date: 2023-05-19
 venue: 'The International Conference on Robotics and Automation (ICRA)'
 paperurl: ''
-citation: 'Mudassir Ibrahim Awan, T Ogay, Waseem Hassan, Dongbeom Ko, S Kang, Seokhee Jeon.'
+citation: 'Mudassir Ibrahim Awan, T Ogay, Waseem Hassan, Dongbeom Ko, S Kang, and Seokhee Jeon.'
 ---
 
 This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.

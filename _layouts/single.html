@@ -38,9 +38,9 @@ layout: default
 
 
         {% if page.citation and page.paperurl %}
-          <p style="line-height: 1.5; margin-bottom: 10px;">{% assign boldedCitation = page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p style="line-height: 1.5; margin-bottom: 5px;">{% assign boldedCitation = page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
-          <p style="line-height: 1.5; margin-bottom: 10px;">{{ page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
+          <p style="line-height: 1.5; margin-bottom: 5px;">{{ page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
         {% endif %}
       
         {% if page.collection == 'teaching' %}
