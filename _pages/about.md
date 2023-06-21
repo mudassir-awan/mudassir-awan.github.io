@@ -41,7 +41,7 @@ redirect_from:
 <h2>News</h2>
 <!-- <ul style="margin-bottom: 20px; text-align: justify; font-size: 14px; "> -->
 <ul style="margin-bottom: 20px;  font-size: 14px; ">
-  <li style="line-height: 1.5;">Two papers got accepted in Korea Computer Congress (KCC) Confernce, 2023 at Jeju Island.</li>
+  <li style="line-height: 1.5;">Two papers got accepted in Korea Computer Congress <a href="https://www.kiise.or.kr/conference/kcc/2023/">(KCC-2023) </a> Confernce at Jeju Island.</li>
   <li style="line-height: 1.5;">I will be presenting our paper on Model Mediated Teleoperation for online Texture modeling and rendering at <a href="https://www.icra2023.org/">ICRA-2023</a> on 1st June, 2023 at Excel London.</li>
   <li style="line-height: 1.5;">One paper got accepted at <a href="https://2023.ubiquitousrobots.org/">UR-2023</a> conference on "Drone Haptics for 3DOF Force Feedback" (April 2023).</li>
   <li style="line-height: 1.5;">One paper got accepted at <a href="https://www.icra2023.org/">ICRA-2023</a> conference titled "Model Mediated Teleoperation for Texture rendering" (Feb 2023).</li>
