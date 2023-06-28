@@ -35,7 +35,7 @@ redirect_from:
 </p>
 
 <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 15px; padding-left: 40px; padding-right: 40px;">
-  <a href="http://mudassir-awan.github.io/files/Mudassir_Resume_2023.pdf">My Full CV</a>  Last updated : May 2023
+  <a href="http://mudassir-awan.github.io/files/Mudassir_Resume_2023.pdf">My Full CV</a>  
 </p>
 
 
