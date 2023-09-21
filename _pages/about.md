@@ -72,7 +72,7 @@ You can also find the full list of my publications [<span style="color:blue">her
 <table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
-      <img src="/images/mmt.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
+      <img src="/images/images/CNN_LSTM_VRST.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
     </td>
     <td style="width: 75%; text-align: justify; border: none;">
       <h3><a href="https://mudassir-awan.github.io/publications/PerceptualAttributes">Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network</a>(ICRA)</h3>
