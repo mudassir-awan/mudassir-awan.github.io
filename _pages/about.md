@@ -75,7 +75,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <img src="/images/VRST.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
     </td>
     <td style="width: 75%; text-align: justify; border: none;">
-      <h3><a href="https://mudassir-awan.github.io/publications/PerceptualAttributes">Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network</a>(ICRA)</h3>
+      <h3><a href="https://mudassir-awan.github.io/publications/PerceptualAttributes">Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network</a>(VRST)</h3>
       <p>
         This paper presents a method to predict human-perceived haptic attributes from tactile signals (acceleration) when a surface is stroked. Using data from 25 texture samples, a five-dimensional haptic space is defined through human feedback, while a physical signal space is created from tool-based interactions. A CNN-LSTM network maps between these spaces. The resulting algorithm, which translates acceleration data to haptic attributes, demonstrated superior performance on unseen textures compared to other models.
         
