@@ -120,6 +120,35 @@ You can also find the full list of my publications [<span style="color:blue">her
   </tr>
 </table>
 
+
+
+
+<table style="width: 100%; border-collapse: collapse; border: 0;">
+  <tr>
+    <td style="width: 25%; text-align: center; border: none;">
+      <img src="/images/drone.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
+    </td>
+    <td style="width: 75%; text-align: justify; border: none;">
+      <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR)</h3>
+      <p>
+        This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
+      </p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC">Download paper here</a></p>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- **<u>Selected Publications</u>** -->
 <!-- <h2>Selected Publications</h2>
 
