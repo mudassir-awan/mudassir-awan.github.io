@@ -79,7 +79,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents a method to predict human-perceived haptic attributes from tactile signals (acceleration) when a surface is stroked. Using data from 25 texture samples, a five-dimensional haptic space is defined through human feedback, while a physical signal space is created from tool-based interactions. A CNN-LSTM network maps between these spaces. The resulting algorithm, which translates acceleration data to haptic attributes, demonstrated superior performance on unseen textures compared to other models.
         
-        <a href="http://mudassir-awan.github.io/files/files/Predicting_Perceptual_Haptic_Attributes.pdf">Download paper here</a>
+        <a href="http://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf">Download paper here</a>
       </p>
     </td>
   </tr>
