@@ -98,7 +98,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing
         
-        <a href="http://mudassir-awan.github.io/files/MMT.pdf">Download paper here</a>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC">Download paper here</a>
       </p>
     </td>
   </tr>
