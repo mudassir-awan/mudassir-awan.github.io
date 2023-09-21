@@ -114,7 +114,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
         
-        <a href="http://mudassir-awan.github.io/files/DroneHaptics.pdf">Download paper here</a>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC">Download paper here</a>
       </p>
     </td>
   </tr>
