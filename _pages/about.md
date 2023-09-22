@@ -77,7 +77,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents a method to predict human-perceived haptic attributes from tactile signals (acceleration) when a surface is stroked. Using data from 25 texture samples, a five-dimensional haptic space is defined through human feedback, while a physical signal space is created from tool-based interactions. A CNN-LSTM network maps between these spaces. The resulting algorithm, which translates acceleration data to haptic attributes, demonstrated superior performance on unseen textures compared to other models.
       </p>
-      <p><a href="http://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
+      <p><a href="http://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
@@ -92,7 +92,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
       </p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:ig0GiCPhszMJ:scholar.google.com/&output=citation&scisdr=ClET3ZDtEJrYqJMIgm0:AFWwaeYAAAAAZQ0Omm0Q6lCnu_JTGa1MCwCxvfQ&scisig=AFWwaeYAAAAAZQ0OmsMoDN9_4t-3evXXsFkNxMI&scisf=4&ct=citation&cd=-1&hl=en" target="_blank">Bibtex</a></p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:ig0GiCPhszMJ:scholar.google.com/&output=citation&scisdr=ClET3ZDtEJrYqJMIgm0:AFWwaeYAAAAAZQ0Omm0Q6lCnu_JTGa1MCwCxvfQ&scisig=AFWwaeYAAAAAZQ0OmsMoDN9_4t-3evXXsFkNxMI&scisf=4&ct=citation&cd=-1&hl=en" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
@@ -108,7 +108,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
       </p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:hNtm8v4PV_MJ:scholar.google.com/&output=citation&scisdr=ClET3ZDtEJrYqJMIpdE:AFWwaeYAAAAAZQ0OvdHgtr0aG2BVhtP5yycIitg&scisig=AFWwaeYAAAAAZQ0OvXP0mS-7DvwF4uCB9Iy1SAU&scisf=4&ct=citation&cd=-1&hl=en" target="_blank">Bibtex</a></p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:hNtm8v4PV_MJ:scholar.google.com/&output=citation&scisdr=ClET3ZDtEJrYqJMIpdE:AFWwaeYAAAAAZQ0OvdHgtr0aG2BVhtP5yycIitg&scisig=AFWwaeYAAAAAZQ0OvXP0mS-7DvwF4uCB9Iy1SAU&scisf=4&ct=citation&cd=-1&hl=en" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
@@ -135,14 +135,17 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; 
         <a href="#YourCodeLinkHere" target="_blank">Code</a> &nbsp;&nbsp;&nbsp;
-        <a href="javascript:void(0);" onclick="document.getElementById('bibtex').style.display='block'">BibTeX</a>
+        <a href="javascript:void(0);" onclick="toggleBibTeX()">BibTeX</a>
       </p>
       <!-- Hidden BibTeX content -->
       <pre id="bibtex" class="hidden">
-@article{YourBibTeXHere,
-  title={...},
-  author={...},
-  ...
+@inproceedings{awan2023dronehaptics,
+  title={DroneHaptics: Encountered-Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
+  author={Awan, Mudassir Ibrahim and Raza, Ahsan and Jeon, Seokhee},
+  booktitle={2023 20th International Conference on Ubiquitous Robots (UR)},
+  pages={195--200},
+  year={2023},
+  organization={IEEE}
 }
       </pre>
     </td>
@@ -160,7 +163,6 @@ function toggleBibTeX() {
     }
 }
 </script>
-
 
 
 
