@@ -92,7 +92,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
       </p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Model-Mediated+Teleoperation+for+Remote+Haptic+Texture+Sharing%3A+Initial+Study+of+Online+Texture+Modeling+and+Rendering&btnG=#d=gs_cit&t=1695353732998&u=%2Fscholar%3Fq%3Dinfo%3Aig0GiCPhszMJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
