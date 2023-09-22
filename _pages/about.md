@@ -77,7 +77,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents a method to predict human-perceived haptic attributes from tactile signals (acceleration) when a surface is stroked. Using data from 25 texture samples, a five-dimensional haptic space is defined through human feedback, while a physical signal space is created from tool-based interactions. A CNN-LSTM network maps between these spaces. The resulting algorithm, which translates acceleration data to haptic attributes, demonstrated superior performance on unseen textures compared to other models.
       </p>
-      <p><a href="http://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Code</a></p>
+      <p><a href="http://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
@@ -92,7 +92,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
       </p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Code</a></p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:9yKSN-GCB0IC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
@@ -108,7 +108,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
       </p>
-      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Code</a></p>
+      <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
