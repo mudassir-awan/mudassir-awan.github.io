@@ -115,6 +115,54 @@ You can also find the full list of my publications [<span style="color:blue">her
 
 
 
+<!-- Include this CSS style at the head of your document for basic styling -->
+<style>
+.hidden {
+    display: none;
+}
+</style>
+
+<table style="width: 100%; border-collapse: collapse; border: 0;">
+  <tr>
+    <td style="width: 25%; text-align: center; border: none;">
+      <img src="/images/drone.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
+    </td>
+    <td style="width: 75%; text-align: justify; border: none;">
+      <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR)</h3>
+      <p>
+        This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
+      </p>
+      <p>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; 
+        <a href="#YourCodeLinkHere" target="_blank">Code</a> &nbsp;&nbsp;&nbsp;
+        <a href="javascript:void(0);" onclick="document.getElementById('bibtex').style.display='block'">BibTeX</a>
+      </p>
+      <!-- Hidden BibTeX content -->
+      <pre id="bibtex" class="hidden">
+@article{YourBibTeXHere,
+  title={...},
+  author={...},
+  ...
+}
+      </pre>
+    </td>
+  </tr>
+</table>
+
+<!-- Include this JavaScript at the bottom of your document to toggle the BibTeX content -->
+<script>
+function toggleBibTeX() {
+    var bibtexContent = document.getElementById('bibtex');
+    if (bibtexContent.style.display === "none") {
+        bibtexContent.style.display = "block";
+    } else {
+        bibtexContent.style.display = "none";
+    }
+}
+</script>
+
+
+
 
 
 
