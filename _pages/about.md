@@ -114,14 +114,16 @@ You can also find the full list of my publications [<span style="color:blue">her
 </table>
 
 
-
-<!-- Include this CSS style at the head of your document for basic styling -->
+<!-- Styles for the hidden content -->
 <style>
 .hidden {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
 }
 </style>
 
+<!-- Your Table Structure -->
 <table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
@@ -138,7 +140,7 @@ You can also find the full list of my publications [<span style="color:blue">her
         <a href="javascript:void(0);" onclick="toggleBibTeX()">BibTeX</a>
       </p>
       <!-- Hidden BibTeX content -->
-      <pre id="bibtex" class="hidden">
+      <pre id="bibtex" class="hidden" style="max-height: 0px;">
 @inproceedings{awan2023dronehaptics,
   title={DroneHaptics: Encountered-Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
   author={Awan, Mudassir Ibrahim and Raza, Ahsan and Jeon, Seokhee},
@@ -152,18 +154,17 @@ You can also find the full list of my publications [<span style="color:blue">her
   </tr>
 </table>
 
-<!-- Include this JavaScript at the bottom of your document to toggle the BibTeX content -->
+<!-- JavaScript to toggle the BibTeX content -->
 <script>
 function toggleBibTeX() {
     var bibtexContent = document.getElementById('bibtex');
-    if (bibtexContent.style.display === "none") {
-        bibtexContent.style.display = "block";
+    if (bibtexContent.style.maxHeight === "0px" || bibtexContent.style.maxHeight === "") {
+        bibtexContent.style.maxHeight = "200px"; // You can adjust this value based on your content
     } else {
-        bibtexContent.style.display = "none";
+        bibtexContent.style.maxHeight = "0px";
     }
 }
 </script>
-
 
 
 
