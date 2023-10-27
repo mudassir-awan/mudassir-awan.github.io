@@ -115,69 +115,58 @@ You can also find the full list of my publications [<span style="color:blue">her
 
 
 <style>
-  .bibtex-content {
-    display: none;
-    width: 100%;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 10px;
-    overflow: hidden;
-  }
   .content-row {
     display: flex;
     align-items: start; /* Ensures top alignment between image and content */
     margin-bottom: 20px; /* Optional: Add space between each row */
+    border: 1px solid #e1e1e1; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
   }
   .image-container, .text-container {
-    padding: 10px; /* Space around each container */
+    padding: 15px; /* Space around each container */
   }
   .image-container {
-    flex: 1; /* Takes up 1/3 of the available space */
+    flex: 1; /* Takes up 1/4 of the available space */
+    border-right: 1px solid #e1e1e1;
   }
   .text-container {
-    flex: 2; /* Takes up 2/3 of the available space */
+    flex: 3; /* Takes up 3/4 of the available space */
+    padding-left: 30px; /* Extra padding for visual separation */
+  }
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 </style>
-
-<script>
-  function toggleBibtex(bibtexId) {
-    var element = document.getElementById(bibtexId);
-    if (element.style.display === "none") {
-      element.style.display = "block";
-    } else {
-      element.style.display = "none";
-    }
-  }
-</script>
 
 <div class="content-row">
   <div class="image-container">
     <img src="/images/drone.png" alt="Profile Picture" width="160" height="300">
   </div>
   <div class="text-container">
-    <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR 2023)</h3>
+    <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a> (UR 2023)</h3>
     <p>
       This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
     </p>
     <p>
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp;
-      <button class="bibtex-button" onclick="toggleBibtex('bibtexDrone')">Bibtex</button>
-      <div class="bibtex-content" id="bibtexDrone">
-        <pre style="white-space: pre-wrap;">
-@inproceedings{awan2023dronehaptics,
-  title={DroneHaptics: Encountered-Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
-  author={Awan, Mudassir Ibrahim and Raza, Ahsan and Jeon, Seokhee},
-  booktitle={2023 20th International Conference on Ubiquitous Robots (UR)},
-  pages={195--200},
-  year={2023},
-  organization={IEEE}
-}
-        </pre>
-      </div>
+      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:hNtm8v4PV_MJ:scholar.google.com/&output=citation&scisdr=ClET3ZDtEOqwiJJdB_o:AFWwaeYAAAAAZTtbH_rIBtvOpx4fMntQOvBx14M&scisig=AFWwaeYAAAAAZTtbHyhZORLPAKyrrlhVwM5Ynyg&scisf=4&ct=citation&cd=-1&hl=ko" target="_blank">Bibtex</a>
     </p>
   </div>
 </div>
-
 
 
 
