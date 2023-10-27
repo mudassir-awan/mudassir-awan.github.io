@@ -113,13 +113,12 @@ You can also find the full list of my publications [<span style="color:blue">her
   </tr>
 </table>
 
-
 <table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
       <img src="/images/drone.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
     </td>
-    <td style="width: 75%; text-align: justify; border: none;">
+    <td style="width: 75%; text-align: justify; border: none; position: relative;"> <!-- Position Relative Added Here -->
       <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR 2023)</h3>
       <p>
         This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
@@ -128,16 +127,9 @@ You can also find the full list of my publications [<span style="color:blue">her
         <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; 
         <!-- Bibtex Button and Content -->
         <button class="bibtex-button" onclick="toggleBibtex('bibtexDrone')">Bibtex</button>
-        <div class="bibtex-content" id="bibtexDrone">
+        <div class="bibtex-content" id="bibtexDrone" style="position: absolute; top: 100%; left: 0; width: 100%;"> <!-- Position Absolute Added Here -->
           <!-- Your actual bibtex content will be placed here -->
-          @inproceedings{awan2023dronehaptics,
-          title={DroneHaptics: Encountered-Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
-          author={Awan, Mudassir Ibrahim and Raza, Ahsan and Jeon, Seokhee},
-          booktitle={2023 20th International Conference on Ubiquitous Robots (UR)},
-          pages={195--200},
-          year={2023},
-          organization={IEEE}
-}
+          @article{...}
           ...
         </div>
       </p>
@@ -166,6 +158,7 @@ You can also find the full list of my publications [<span style="color:blue">her
         background-color: #f1f1f1;
         padding: 10px;
         border-radius: 5px;
+        z-index: 10;  /* To ensure the content appears above any other overlapping elements */
     }
 </style>
 
