@@ -77,7 +77,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
         This paper presents a method to predict human-perceived haptic attributes from tactile signals (acceleration) when a surface is stroked. Using data from 25 texture samples, a five-dimensional haptic space is defined through human feedback, while a physical signal space is created from tool-based interactions. A CNN-LSTM network maps between these spaces. The resulting algorithm, which translates acceleration data to haptic attributes, demonstrated superior performance on unseen textures compared to other models.
       </p>
-      <p><a href="https://dl.acm.org/doi/10.1145/3611659.3615714" target="_blank">Download paper here</a> &nbsp;&nbsp;&nbsp; <a href="#YourCodeLinkHere" target="_blank">Bibtex</a></p>
+      <p><a href="https://dl.acm.org/doi/10.1145/3611659.3615714" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=Predicting+Perceptual+Haptic+Attributes+of+Textured+Surface+from+Tactile+Data+Based+on+Deep+CNN-LSTM+Network&btnG=#d=gs_cit&t=1698387328598&u=%2Fscholar%3Fq%3Dinfo%3AgovmnYYkzxoJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Dko" target="_blank">Bibtex</a></p>
     </td>
   </tr>
 </table>
