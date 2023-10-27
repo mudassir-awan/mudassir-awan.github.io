@@ -113,18 +113,44 @@ You can also find the full list of my publications [<span style="color:blue">her
   </tr>
 </table>
 
-
 <style>
-  /* ... (your existing styles) ... */
-
-  .bibtex-content {
-    display: none;
-    margin-top: 10px;
-    border: 1px solid #e1e1e1;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: monospace;  /* Optional: Makes the BibTeX content more readable */
-    background-color: #f5f5f5;
+  .content-row {
+    display: flex;
+    align-items: start; /* Ensures top alignment between image and content */
+    margin-bottom: 20px; /* Optional: Add space between each row */
+    border: 1px solid #e1e1e1; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .image-container, .text-container {
+    padding: 15px; /* Space around each container */
+  }
+  .image-container {
+    flex: 1; /* Takes up 1/4 of the available space */
+    border-right: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the image inside the container */
+  }
+  .text-container {
+    flex: 3; /* Takes up 3/4 of the available space */
+    padding-left: 30px; /* Extra padding for visual separation */
+  }
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 </style>
 
@@ -139,84 +165,7 @@ You can also find the full list of my publications [<span style="color:blue">her
     </p>
     <p>
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp;
-      <a href="#" onclick="toggleBibtex()">Bibtex</a>
+      <a href="javascript:void(0);" onclick="toggleBibtex()">Bibtex</a>
     </p>
-    <div class="bibtex-content" id="bibtexContent">
-      @article{... your bibtex content ...}
-    </div>
   </div>
 </div>
-
-<script>
-  function toggleBibtex() {
-    const bibtexContent = document.getElementById('bibtexContent');
-    if (bibtexContent.style.display === "none") {
-        bibtexContent.style.display = "block";
-    } else {
-        bibtexContent.style.display = "none";
-    }
-  }
-</script>
-
-
-
-<!-- **<u>Selected Publications</u>** -->
-<!-- <h2>Selected Publications</h2>
-
-You can also find the full list of my publications [<span style="color:blue">here</span>](https://mudassir-awan.github.io/publications/)
-
-
-[Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering](https://mudassir-awan.github.io/publications/teleoperation)  **(ICRA)** 
-
-
-This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
-[Download paper here](http://mudassir-awan.github.io/files/MMT.pdf)
-
-[DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback](https://mudassir-awan.github.io/publications/drone) **(UR)** 
-
-This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback. [Download paper here](http://mudassir-awan.github.io/files/DroneHaptics.pdf) -->
-
-
-<!-- <h2>Selected Publications</h2>
-
-You can also find the full list of my publications [<span style="color:blue">here</span>](https://mudassir-awan.github.io/publications/)
-
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1; text-align: justify;">
-    <h3><a href="https://mudassir-awan.github.io/publications/teleoperation">Model-Mediated Teleoperation for Remote Haptic Texture Sharing: Initial Study of Online Texture Modeling and Rendering</a>(ICRA)</h3>
-
-    <div style="display: flex;">
-      <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 30px;">
-      </div>
-      <div style="flex: 3;">
-        <p>
-          This paper presents the first model-mediated teleoperation (MMT) framework capable of sharing surface haptic texture. It enables the collection of physical signals on the follower side, which are used to build and update a local texture simulation model on the leader side. This approach provides real-time, stable, and accurate feedback of texture. The paper includes an implemented proof-of-concept system that showcases the potential of this approach for remote texture sharing.
-          
-          <a href="http://mudassir-awan.github.io/files/MMT.pdf">Download paper here</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1; text-align: justify;">
-    <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a> (UR)</h3>
-
-    <div style="display: flex;">
-      <div style="flex: 1;">
-        <img src="/images/profile.png" alt="Profile Picture" width="150" height="200" style="margin-right: 20px;">
-      </div>
-      <div style="flex: 3;">
-        <p>
-          This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
-          
-          <a href="http://mudassir-awan.github.io/files/DroneHaptics.pdf">Download paper here</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
- -->
