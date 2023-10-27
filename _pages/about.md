@@ -114,16 +114,28 @@ You can also find the full list of my publications [<span style="color:blue">her
 </table>
 
 
-
-
 <style>
   .bibtex-content {
     display: none;
     width: 100%;
-    background-color: #f9f9f9; /* Optional: Add a background color for clarity */
-    border: 1px solid #ddd;    /* Optional: Add a border for clarity */
-    padding: 10px;             /* Optional: Add some padding */
-    overflow: hidden;          /* Optional: In case the content is too long */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .content-row {
+    display: flex;
+    align-items: start; /* Ensures top alignment between image and content */
+    margin-bottom: 20px; /* Optional: Add space between each row */
+  }
+  .image-container, .text-container {
+    padding: 10px; /* Space around each container */
+  }
+  .image-container {
+    flex: 1; /* Takes up 1/3 of the available space */
+  }
+  .text-container {
+    flex: 2; /* Takes up 2/3 of the available space */
   }
 </style>
 
@@ -138,21 +150,20 @@ You can also find the full list of my publications [<span style="color:blue">her
   }
 </script>
 
-<table style="width: 100%; border-collapse: collapse; border: 0;">
-  <tr>
-    <td style="width: 25%; text-align: center; border: none;">
-      <img src="/images/drone.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
-    </td>
-    <td style="width: 75%; text-align: justify; border: none;">
-      <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR 2023)</h3>
-      <p>
-        This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
-      </p>
-      <p>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp;
-        <button class="bibtex-button" onclick="toggleBibtex('bibtexDrone')">Bibtex</button>
-        <div class="bibtex-content" id="bibtexDrone">
-          <pre style="white-space: pre-wrap;"> <!-- Ensuring the BibTeX content wraps properly -->
+<div class="content-row">
+  <div class="image-container">
+    <img src="/images/drone.png" alt="Profile Picture" width="160" height="300">
+  </div>
+  <div class="text-container">
+    <h3><a href="https://mudassir-awan.github.io/publications/drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR 2023)</h3>
+    <p>
+      This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
+    </p>
+    <p>
+      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp;
+      <button class="bibtex-button" onclick="toggleBibtex('bibtexDrone')">Bibtex</button>
+      <div class="bibtex-content" id="bibtexDrone">
+        <pre style="white-space: pre-wrap;">
 @inproceedings{awan2023dronehaptics,
   title={DroneHaptics: Encountered-Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
   author={Awan, Mudassir Ibrahim and Raza, Ahsan and Jeon, Seokhee},
@@ -161,12 +172,12 @@ You can also find the full list of my publications [<span style="color:blue">her
   year={2023},
   organization={IEEE}
 }
-          </pre>
-        </div>
-      </p>
-    </td>
-  </tr>
-</table>
+        </pre>
+      </div>
+    </p>
+  </div>
+</div>
+
 
 
 
