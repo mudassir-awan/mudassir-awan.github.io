@@ -112,7 +112,7 @@ You can also find the full list of my publications [<span style="color:blue">her
     </td>
   </tr>
 </table>
-
+<!-- 
 <style>
   .content-row {
     display: flex;
@@ -162,7 +162,7 @@ You can also find the full list of my publications [<span style="color:blue">her
   }
 </style>
 
-
+<!-- 
 <div class="content-row">
   <div class="image-container">
     <img src="/images/drone.png" alt="Profile Picture" width="160" height="300">
@@ -199,4 +199,4 @@ You can also find the full list of my publications [<span style="color:blue">her
     }
   }
 </script>
-
+ --> -->
