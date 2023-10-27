@@ -116,26 +116,26 @@ You can also find the full list of my publications [<span style="color:blue">her
 <style>
   .content-row {
     display: flex;
-    align-items: start; /* Ensures top alignment between image and content */
-    margin-bottom: 20px; /* Optional: Add space between each row */
-    border: 1px solid #e1e1e1; 
-    border-radius: 5px; 
+    align-items: start;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
   .image-container, .text-container {
-    padding: 15px; /* Space around each container */
+    padding: 15px;
   }
   .image-container {
-    flex: 1; /* Takes up 1/4 of the available space */
+    flex: 1;
     border-right: 1px solid #e1e1e1;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers the image inside the container */
+    justify-content: center;
   }
   .text-container {
-    flex: 3; /* Takes up 3/4 of the available space */
-    padding-left: 30px; /* Extra padding for visual separation */
+    flex: 3;
+    padding-left: 30px;
   }
   h3 {
     margin-top: 0;
@@ -152,7 +152,16 @@ You can also find the full list of my publications [<span style="color:blue">her
   a:hover {
     text-decoration: underline;
   }
+  #bibtex-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
 </style>
+
 
 <div class="content-row">
   <div class="image-container">
@@ -167,5 +176,27 @@ You can also find the full list of my publications [<span style="color:blue">her
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp;
       <a href="javascript:void(0);" onclick="toggleBibtex()">Bibtex</a>
     </p>
+    <div id="bibtex-content">
+      @inproceedings{paper2023,
+        title={DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
+        author={Your Name},
+        booktitle={Conference Name},
+        year={2023},
+        url={https://mudassir-awan.github.io/publications/drone}
+      }
+    </div>
   </div>
 </div>
+
+
+<script>
+  function toggleBibtex() {
+    var bibtexContent = document.getElementById("bibtex-content");
+    if (bibtexContent.style.display === "none") {
+      bibtexContent.style.display = "block";
+    } else {
+      bibtexContent.style.display = "none";
+    }
+  }
+</script>
+
