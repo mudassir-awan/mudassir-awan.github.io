@@ -127,11 +127,23 @@ You can also find the full list of my publications [<span style="color:blue">her
         <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; 
         <!-- Bibtex Button and Content -->
         <button class="bibtex-button" onclick="toggleBibtex('bibtexDrone')">Bibtex</button>
-        <div class="bibtex-content" id="bibtexDrone" style="position: absolute; top: 100%; left: 0; width: 100%;"> <!-- Position Absolute Added Here -->
-          <!-- Your actual bibtex content will be placed here -->
-          @article{...}
-          ...
+        <!-- Previous content remains unchanged -->
+
+        <div class="bibtex-content" id="bibtexDrone" style="position: absolute; top: 100%; left: 0; width: 100%;">
+            <pre>
+        @inproceedings{awan2023dronehaptics,
+          title={DroneHaptics: Encountered-Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback},
+          author={Awan, Mudassir Ibrahim and Raza, Ahsan and Jeon, Seokhee},
+          booktitle={2023 20th International Conference on Ubiquitous Robots (UR)},
+          pages={195--200},
+          year={2023},
+          organization={IEEE}
+        }
+            </pre>
         </div>
+
+<!-- Rest of the content and scripts remains unchanged -->
+
       </p>
     </td>
   </tr>
