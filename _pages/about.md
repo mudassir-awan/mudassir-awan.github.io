@@ -115,40 +115,16 @@ You can also find the full list of my publications [<span style="color:blue">her
 
 
 <style>
-  .content-row {
-    display: flex;
-    align-items: start; /* Ensures top alignment between image and content */
-    margin-bottom: 20px; /* Optional: Add space between each row */
-    border: 1px solid #e1e1e1; 
-    border-radius: 5px; 
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  .image-container, .text-container {
-    padding: 15px; /* Space around each container */
-  }
-  .image-container {
-    flex: 1; /* Takes up 1/4 of the available space */
-    border-right: 1px solid #e1e1e1;
-  }
-  .text-container {
-    flex: 3; /* Takes up 3/4 of the available space */
-    padding-left: 30px; /* Extra padding for visual separation */
-  }
-  h3 {
-    margin-top: 0;
-    font-size: 18px;
-  }
-  p {
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
+  /* ... (your existing styles) ... */
+
+  .bibtex-content {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;  /* Optional: Makes the BibTeX content more readable */
+    background-color: #f5f5f5;
   }
 </style>
 
@@ -163,11 +139,24 @@ You can also find the full list of my publications [<span style="color:blue">her
     </p>
     <p>
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:2osOgNQ5qMEC" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp;
-      <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:hNtm8v4PV_MJ:scholar.google.com/&output=citation&scisdr=ClET3ZDtEOqwiJJdB_o:AFWwaeYAAAAAZTtbH_rIBtvOpx4fMntQOvBx14M&scisig=AFWwaeYAAAAAZTtbHyhZORLPAKyrrlhVwM5Ynyg&scisf=4&ct=citation&cd=-1&hl=ko" target="_blank">Bibtex</a>
+      <a href="#" onclick="toggleBibtex()">Bibtex</a>
     </p>
+    <div class="bibtex-content" id="bibtexContent">
+      @article{... your bibtex content ...}
+    </div>
   </div>
 </div>
 
+<script>
+  function toggleBibtex() {
+    const bibtexContent = document.getElementById('bibtexContent');
+    if (bibtexContent.style.display === "none") {
+        bibtexContent.style.display = "block";
+    } else {
+        bibtexContent.style.display = "none";
+    }
+  }
+</script>
 
 
 
