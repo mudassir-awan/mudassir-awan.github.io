@@ -120,7 +120,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <img src="/images/texture_classification_setup.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
     </td>
     <td style="width: 75%; text-align: justify; border: none;">
-      <h3><a href="https://mudassir-awan.github.io/publications/drone">Surface Texture Classification Based on Transformer Network</a> (HCI Korea, 2023)</h3>
+      <h3><a href="https://mudassir-awan.github.io/publications/surfaceTexture">Surface Texture Classification Based on Transformer Network</a> (HCI Korea, 2023)</h3>
       <p>
          In this study we developed a new transformer-based deep learning model for surface texture classification from haptic data (i.e., interaction speed, applied force and produced vibration signals). This approach leverages the self-attention process to learn the complex patterns and dynamics of time-series data. To the best of our knowledge this is the first time that the transformer or its variants are used for surface texture classification using tactile information. As a proof of concept, we collected data for 9 different textures and the evaluation experiments showed that the model achieved state-of-the-art classification accuracy.
       </p>
@@ -136,11 +136,11 @@ You can also find the full list of my publications [<span style="color:blue">her
       <img src="/images/Prosthetic_Hand.PNG" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
     </td>
     <td style="width: 75%; text-align: justify; border: none;">
-      <h3><a href="https://mudassir-awan.github.io/publications/prostheticHand">Vibrotactile Stimulation for 3D Printed Prosthetic Hand</a> (ICRAI, 2018)</h3>
+      <h3><a href="https://mudassir-awan.github.io/publications/prostheticHand">Vibrotactile Stimulation for 3D Printed Prosthetic Hand</a> (ICRAI, 2016)</h3>
       <p>
          In this study, we address the significant limitation posed by the absence of haptic feedback in prosthetics. Emphasizing the potential of closed-loop prosthetics, our objective is to provide amputees with both exteroceptive (environmental pressure) and proprioceptive (awareness of joint positions) feedback through specialized sensory systems. Central to our research is the implementation of vibrotactile feedback to an amputee's residual arm, enabling them to better perceive sensations when grasping objects. To this end, we incorporated coin-shaped vibration motors and 0.5-inch circular FSRs to deliver nuanced feedback from the fingertip. For an economical solution, a 3D printed hand was adopted. Our evaluation involved six healthy subjects and one amputee, with the results affirming the efficacy of our approach.
       </p>
-      <p><a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11229746" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Surface+Texture+Classification+Based+on+Transformer+Network&btnG=" target="_blank">Cite</a></p>
+      <p><a href="https://ieeexplore.ieee.org/document/7791254" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:u5HHmVD_uO8C" target="_blank">Cite</a></p>
     </td>
   </tr>
 </table>
