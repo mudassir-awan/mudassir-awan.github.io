@@ -9,7 +9,7 @@ paperurl: ''
 citation: 'M. Nabeel, Kashan Aqeel, M. Noman Ashraf, Mudassir Ibrahim Awan, and M. Khurram.'
 ---
 
-This paper introduces a dome-shaped haptic drone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
+Lack of haptic feedback in prostheses is proving to be the bottleneck in the field. Closed loop prostheses should fill the gap for amputees to experience exteroceptive (environmental pressure) or proprioceptive (proper state or joint angles) by means of different sensory feedback. Detailed work is being done on the development of electrotactile and vi-brotactile stimulation system. The objective of this research is to generate vibrotactile feedback on a residual arm of an amputee. With this research, it is an endeavor for amputees to possess cognitive response while holding something amid environmental interactions with the help of convenient methodology and with suitable components in hand. To make this design pertinent to the objective, we have used coin shaped vibration motors, 0.5- inch diameter circular FSR provide haptic feedback from the tip of the finger. 3D printed prosthetic hand proved to be the best remedy for lowering the cost. The research was conducted on 6 healthy subjects and one amputee. Experimental results showed the effectiveness of proposed approach.
 
 [Download paper here](http://mudassir-awan.github.io/files/prostheticHand.pdf)
 
