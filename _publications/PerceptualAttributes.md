@@ -96,33 +96,36 @@ function copyBibTex() {
 .bibtex-container {
   background-color: #f6f8fa;
   border: 1px solid #d1d5da;
-  padding: 14px;
+  padding: 12px;
   position: relative;
   width: 100%;
   max-width: 600px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
 }
 
 .bibtex-container pre {
   white-space: pre-wrap;
   background-color: #ffffff;
   border: 1px solid #e1e4e8;
-  padding: 10px;
+  padding: 8px;
   border-radius: 6px;
   font-family: "Courier New", Courier, monospace;
+  font-size: 14px; /* Decrease the font size */
   margin: 0;
+  line-height: 1.4;
 }
 
 .copy-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 6px 12px;
+  top: 12px;
+  right: 12px;
+  padding: 5px 10px;
   background-color: #28a745;
   color: #fff;
   border: none;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 4px;
 }
 
