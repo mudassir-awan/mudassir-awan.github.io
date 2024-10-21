@@ -9,7 +9,7 @@ paperurl: 'https://doi.org/10.1145/3611659.3615714'
 citation: 'Mudassir Ibrahim Awan, Waseem Hassan, and Jeon Seokhee.'
 description: "This paper presents a CNN-LSTM deep learning network for predicting multi-dimensional haptic attribute values based on tactile signals generated from textured surfaces. The algorithm evaluates unseen textures, achieving reliable performance."
 keywords: "haptic attributes, tactile data, CNN-LSTM, textured surfaces, deep learning, VRST 2023"
-image: "https://mudassir-awan.github.io/images/haptic-attributes.png"  # Adjust the image path if needed.
+image: "https://mudassir-awan.github.io/images/VRST.png"  # Adjust the image path if needed.
 ---
 
 This paper introduces a framework to predict multi-dimensional haptic attribute values that humans use to recognize material properties using physical tactile signals (acceleration) generated when a textured surface is stroked. To this end, two spaces are established: a haptic attribute space and a physical signal space. A five-dimensional haptic attribute space is established through human adjective rating experiments with 25 real texture samples. The physical space is constructed using tool-based interaction data from the same 25 samples. A mapping is modeled between these spaces using a newly designed CNN-LSTM deep learning network. 
@@ -54,7 +54,5 @@ A prediction algorithm is implemented that takes acceleration data and returns c
 </script>
 
 ---
-
-For more information explore the [paper](https://www.researchgate.net/publication/374578828_Predicting_Perceptual_Haptic_Attributes_of_Textured_Surface_from_Tactile_Data_Based_on_Deep_CNN-LSTM_Network).
-
+For more information, explore the paper on [ResearchGate](https://www.researchgate.net/publication/374578828_Predicting_Perceptual_Haptic_Attributes_of_Textured_Surface_from_Tactile_Data_Based_on_Deep_CNN-LSTM_Network), [ACM](https://dl.acm.org/doi/10.1145/3611659.3615714), or [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:IjCSPb-OGe4C).
 ---
