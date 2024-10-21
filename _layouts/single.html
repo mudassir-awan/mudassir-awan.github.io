@@ -14,6 +14,41 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<!-- Begin SEO Enhancements -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Dynamic Title -->
+  <title>{{ page.title }}</title>
+
+  <!-- Meta Description for SEO -->
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+  {% else %}
+    <meta name="description" content="{{ page.excerpt | escape }}">
+  {% endif %}
+
+  <!-- Meta Keywords (if any) -->
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | escape }}">
+  {% endif %}
+
+  <!-- Open Graph (OG) meta tags for Social Media -->
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:image" content="{{ page.image | default: site.logo }}">
+
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description | escape }}">
+  <meta name="twitter:image" content="{{ page.image | default: site.logo }}">
+</head>
+<!-- End SEO Enhancements -->
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -26,69 +61,37 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}
+            <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          {% endif %}
+          
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
 
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
 
+          {% if page.citation and page.paperurl %}
+            <p style="line-height: 1.5; margin-bottom: 5px;">{% assign boldedCitation = page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          {% elsif page.citation %}
+            <p style="line-height: 1.5; margin-bottom: 5px;">{{ page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
+          {% endif %}
 
-        {% if page.citation and page.paperurl %}
-          <p style="line-height: 1.5; margin-bottom: 5px;">{% assign boldedCitation = page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p style="line-height: 1.5; margin-bottom: 5px;">{{ page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
-        {% endif %}
-      
-        {% if page.collection == 'teaching' %}
-          <p style="line-height: 1.5; margin-bottom: 20px;">{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
-        {% elsif page.venue and page.date %}
-          <p style="line-height: 1.5; margin-bottom: 20px;">Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
-        
+          {% if page.venue and page.date %}
+            <p style="line-height: 1.5; margin-bottom: 20px;">Published in <i>{{ page.venue }}</i>, {{ page.date | date: "%Y" }}</p>
           {% elsif page.date %}
-          <p class="page__date" style="line-height: 1.5; margin-bottom: 30px;"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-      
-
-
-
-        <!-- {% if page.citation and page.paperurl %}
-          <p>{% assign boldedCitation = page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' %} {{ boldedCitation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>{{ page.citation | replace: 'Mudassir Ibrahim Awan', '<strong>Mudassir Ibrahim Awan</strong>' }}</p>
-        {% endif %}
-
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %} -->
-
-
-
-  
-        <!-- {% if post.excerpt and site.read_more != 'enabled' %}
-          <p class="archive__item-excerpt" itemprop="description" style="line-height: 0.5;">{{ post.excerpt | markdownify }}</p>
-        {% elsif post.excerpt and site.read_more == 'enabled' %}
-          <p class="archive__item-excerpt" itemprop="description" style="line-height: 0.5;"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-        {% endif %} -->
-
-
-
-
-        
-    
+            <p class="page__date" style="line-height: 1.5; margin-bottom: 30px;"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}
+          <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+        {% endif %}
       </section>
 
       <footer class="page__meta">
@@ -98,7 +101,9 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      {% if page.share %}
+        {% include social-share.html %}
+      {% endif %}
 
       {% include post_pagination.html %}
     </div>
