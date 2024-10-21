@@ -14,7 +14,7 @@ layout: post
 
 This paper introduces a dome-shaped HapticDrone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
 
-[Download DroneHaptics paper (PDF)](http://mudassir-awan.github.io/files/haptic-drone.pdf)
+[Download DroneHaptics (PDF)](http://mudassir-awan.github.io/files/haptic-drone.pdf)
 
 <script type="application/ld+json">
 {
@@ -46,4 +46,5 @@ This paper introduces a dome-shaped HapticDrone with a hemispherical cage made o
   "citation": "Mudassir Ibrahim Awan, Ahsan Raza, and Jeon Seokhee. Published in International Conference on Ubiquitous Robots (UR), 2023.",
   "description": "This paper introduces a dome-shaped HapticDrone for 3-DoF force feedback using a hemispherical aluminum mesh cage. The system’s force rendering accuracy achieved a low error rate of less than 8.6%."
 }
+
 </script>
