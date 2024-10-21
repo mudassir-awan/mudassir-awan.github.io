@@ -1,20 +1,23 @@
 ---
-title: "DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback"
+title: "DroneHaptics - HapticDrone for 3-DoF Force Feedback Using Dome-Shaped Drone"
 collection: publications
 permalink: /publications/haptic-drone
-excerpt: ''
+excerpt: 'Introducing a new HapticDrone system for 3-DoF force feedback with a dome-shaped drone.'
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR)'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10202318'
 citation: 'Mudassir Ibrahim Awan, Ahsan Raza, and Jeon Seokhee.'
-description: 'Introducing a dome-shaped HapticDrone for 3-DoF force feedback using a hemispherical aluminum mesh cage.'
-keywords: 'haptics, drone, force feedback, UR 2023'
+description: 'Introducing a dome-shaped HapticDrone for 3-DoF force feedback using a hemispherical aluminum mesh cage, enabling precise and safe force rendering.'
+keywords: 'HapticDrone, 3-DoF, force feedback, dome-shaped drone, kinesthetic haptics, Haptic Interface, UR 2023'
 image: 'https://mudassir-awan.github.io/images/drone.png'
 ---
 
-This paper introduces a dome-shaped HapticDrone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
+This paper introduces a **dome-shaped HapticDrone** with a hemispherical cage made of **aluminum mesh**, designed for controllable **3D force feedback**. This advancement improves usability and user safety in haptic applications. **Experimental measurements** and **mathematical formulations** establish a reliable **force-thrust relationship**, ensuring precise haptic interaction. The **force rendering accuracy** achieved a low error rate of less than **8.6%**, making the feedback perceptually accurate.
 
-[Download DroneHaptics (PDF)](http://mudassir-awan.github.io/files/haptic-drone.pdf)
+> [Download DroneHaptics (PDF)](http://mudassir-awan.github.io/files/haptic-drone.pdf)
+
+### Related HapticDrone Publications:
+- **[HapticDrone: An Encountered-Type Kinesthetic Haptic Interface with Controllable Force Feedback](https://mudassir-awan.github.io/publications/old-paper-url)**: Our previous study focuses on 1D force feedback.
 
 <script type="application/ld+json">
 {
@@ -50,3 +53,32 @@ This paper introduces a dome-shaped HapticDrone with a hemispherical cage made o
   "description": "This paper introduces a dome-shaped HapticDrone for 3-DoF force feedback using a hemispherical aluminum mesh cage. The system’s force rendering accuracy achieved a low error rate of less than 8.6%."
 }
 </script>
+
+---
+
+## HapticDrone System for 3-DoF Force Feedback: Revolutionizing Kinesthetic Haptic Interfaces
+
+The **HapticDrone system** described in this paper presents a significant improvement over previous models, particularly in its ability to offer **3-DoF force feedback**. The hemispherical cage allows for more precise and reliable haptic control, compared to traditional 1D systems. By using **advanced thrust control algorithms** and mathematical modeling, this **kinesthetic haptic interface** is able to simulate realistic haptic feedback with a high degree of accuracy.
+
+By leveraging the **force-thrust relationship**, this system addresses the limitations of earlier haptic drones, such as inconsistent force rendering and poor user experience in complex haptic environments.
+
+**Keywords to focus:**
+- HapticDrone
+- Dome-shaped drone
+- Kinesthetic haptic interface
+- 3-DoF force feedback
+- Haptic interface with controllable force feedback
+
+---
+
+For more information, explore the [HapticDrone for 1D Force Feedback paper](https://mudassir-awan.github.io/publications/old-paper-url).
+
+**Further Reading:**
+- [Surface Texture Classification Based on Transformer Network](https://mudassir-awan.github.io/publications/surfaceTexture)
+- [Model-Mediated Teleoperation for Remote Haptic Texture Sharing](https://mudassir-awan.github.io/publications/teleoperation)
+
+---
+
+Follow me for more updates on **haptics research** and **kinesthetic interfaces**:
+- [Google Scholar](https://scholar.google.com/citations?user=VCllBHIAAAAJ&hl=en)
+- [LinkedIn](https://www.linkedin.com/in/mudassir-awan)
