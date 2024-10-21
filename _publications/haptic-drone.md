@@ -47,7 +47,7 @@ This paper introduces a **dome-shaped HapticDrone** with a hemispherical cage ma
   },
   "inLanguage": "en",
   "headline": "DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback",
-  "url": "https://mudassir-awan.github.io/publications/haptic-drone",
+  "url": "https://ieeexplore.ieee.org/document/10202318",
   "image": "https://mudassir-awan.github.io/images/drone.png",
   "citation": "Mudassir Ibrahim Awan, Ahsan Raza, and Jeon Seokhee. Published in International Conference on Ubiquitous Robots (UR), 2023.",
   "description": "This paper introduces a dome-shaped HapticDrone for 3-DoF force feedback using a hemispherical aluminum mesh cage. The system’s force rendering accuracy achieved a low error rate of less than 8.6%."
