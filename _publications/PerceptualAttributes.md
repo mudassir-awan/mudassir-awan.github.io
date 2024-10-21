@@ -67,30 +67,33 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
     <h4>Cite this paper (BibTeX):</h4>
     <button class="copy-button" onclick="copyBibTeX()">Copy BibTeX</button>
   </div>
-  <pre>
+  <pre id="bibtex-code">
 @inproceedings{awan2023predicting,
-    title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
-    author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
-    booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
-    pages={1--9},
-    year={2023}
+  title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
+  author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
+  booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
+  pages={1--9},
+  year={2023}
 }
   </pre>
 </div>
 
 <script>
 function copyBibTeX() {
-  const bibtexText = `@inproceedings{awan2023predicting,
-  title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
-  author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
-  booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
-  pages={1--9},
-  year={2023}
-}`;
-  navigator.clipboard.writeText(bibtexText);
+  const bibtexText = document.getElementById('bibtex-code').textContent.trim();
+  
+  // Create a temporary text area to cleanly copy the BibTeX
+  const tempTextarea = document.createElement('textarea');
+  tempTextarea.value = bibtexText;
+  document.body.appendChild(tempTextarea);
+  tempTextarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(tempTextarea);
+  
   alert("BibTeX copied!");
 }
 </script>
+
 
 
 <!-- Basic CSS for styling the BibTeX box and button -->
