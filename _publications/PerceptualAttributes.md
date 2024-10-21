@@ -96,11 +96,11 @@ function copyBibTex() {
 .bibtex-container {
   background-color: #f6f8fa;
   border: 1px solid #d1d5da;
-  padding: 16px;
+  padding: 14px;
   position: relative;
   width: 100%;
   max-width: 600px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .bibtex-container pre {
@@ -122,7 +122,7 @@ function copyBibTex() {
   color: #fff;
   border: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 10px;
   border-radius: 4px;
 }
 
