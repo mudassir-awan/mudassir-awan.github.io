@@ -63,33 +63,35 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
 
 <!-- BibTeX citation box -->
 <div class="bibtex-container">
-  <h3>Cite this paper (BibTeX):</h3>
-  <pre id="bibtexCitation">
+  <div class="bibtex-header">
+    <h4>Cite this paper (BibTeX):</h4>
+    <button class="copy-button" onclick="copyBibTeX()">Copy BibTeX</button>
+  </div>
+  <pre>
 @inproceedings{awan2023predicting,
+    title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
+    author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
+    booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
+    pages={1--9},
+    year={2023}
+}
+  </pre>
+</div>
+
+<script>
+function copyBibTeX() {
+  const bibtexText = `@inproceedings{awan2023predicting,
   title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
   author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
   booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
   pages={1--9},
   year={2023}
-}
-}
-  </pre>
-  <button class="copy-button" onclick="copyBibTex()">Copy BibTeX</button>
-</div>
-
-<!-- JavaScript to copy BibTeX to clipboard -->
-<script>
-function copyBibTex() {
-  var bibtexText = document.getElementById("bibtexCitation").innerText;
-  var textArea = document.createElement("textarea");
-  textArea.value = bibtexText;
-  document.body.appendChild(textArea);
-  textArea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textArea);
-  alert("BibTeX copied to clipboard!");
+}`;
+  navigator.clipboard.writeText(bibtexText);
+  alert("BibTeX copied!");
 }
 </script>
+
 
 <!-- Basic CSS for styling the BibTeX box and button -->
 <style>
@@ -97,29 +99,25 @@ function copyBibTex() {
   background-color: #f6f8fa;
   border: 1px solid #d1d5da;
   padding: 12px;
-  position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px; /* Increased width */
   margin-bottom: 16px;
   border-radius: 8px;
 }
 
-.bibtex-container pre {
-  white-space: pre-wrap;
-  background-color: #ffffff;
-  border: 1px solid #e1e4e8;
-  padding: 8px;
-  border-radius: 6px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 14px; /* Decrease the font size */
+.bibtex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bibtex-header h4 {
   margin: 0;
-  line-height: 1.4;
+  font-size: 16px; /* Adjust as needed */
 }
 
 .copy-button {
-  position: absolute;
-  top: 12px;
-  right: 12px;
   padding: 5px 10px;
   background-color: #28a745;
   color: #fff;
@@ -131,5 +129,17 @@ function copyBibTex() {
 
 .copy-button:hover {
   background-color: #218838;
+}
+
+.bibtex-container pre {
+  white-space: pre-wrap;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  padding: 8px;
+  border-radius: 6px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px; /* Adjust font size */
+  margin: 0;
+  line-height: 1.4;
 }
 </style>
