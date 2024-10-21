@@ -54,5 +54,7 @@ A prediction algorithm is implemented that takes acceleration data and returns c
 </script>
 
 ---
-For more information, explore the paper on [ResearchGate](https://www.researchgate.net/publication/374578828_Predicting_Perceptual_Haptic_Attributes_of_Textured_Surface_from_Tactile_Data_Based_on_Deep_CNN-LSTM_Network), [ACM](https://dl.acm.org/doi/10.1145/3611659.3615714), or [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:IjCSPb-OGe4C).
+
+For more information, explore the full paper on [ResearchGate](https://www.researchgate.net/publication/374578828_Predicting_Perceptual_Haptic_Attributes_of_Textured_Surface_from_Tactile_Data_Based_on_Deep_CNN-LSTM_Network), [ACM](https://dl.acm.org/doi/10.1145/3611659.3615714), or [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:IjCSPb-OGe4C).
+
 ---
