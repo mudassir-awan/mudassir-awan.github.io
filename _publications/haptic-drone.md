@@ -17,7 +17,7 @@ This paper introduces a **dome-shaped HapticDrone** with a hemispherical cage ma
 > [Download DroneHaptics (PDF)](http://mudassir-awan.github.io/files/haptic-drone.pdf)
 
 ### Related HapticDrone Publications:
-- **[HapticDrone: An Encountered-Type Kinesthetic Haptic Interface with Controllable Force Feedback](https://mudassir-awan.github.io/publications/old-paper-url)**: Our previous study focuses on 1D force feedback.
+- **[HapticDrone: An Encountered-Type Kinesthetic Haptic Interface with Controllable Force Feedback](https://ieeexplore.ieee.org/document/8357197)**: Our previous study focuses on 1D force feedback.
 
 <script type="application/ld+json">
 {
@@ -71,7 +71,7 @@ By leveraging the **force-thrust relationship**, this system addresses the limit
 
 ---
 
-For more information, explore the [HapticDrone for 1D Force Feedback paper](https://ieeexplore.ieee.org/document/8357197).
+For more information on **Encountered-type** haptic drone, explore the paper [HapticDrone for 3DoF](https://www.researchgate.net/publication/373007277_DroneHaptics_Encountered-Type_Haptic_Interface_Using_Dome-Shaped_Drone_for_3-DoF_Force_Feedback).
 
 ---
 
