@@ -1,7 +1,7 @@
 ---
 title: "DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback"
 collection: publications
-permalink: /publications/drone
+permalink: /publications/haptic-drone
 excerpt: ''
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR)'
