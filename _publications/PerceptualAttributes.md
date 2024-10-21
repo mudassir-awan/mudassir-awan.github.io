@@ -5,7 +5,7 @@ permalink: /publications/PerceptualAttributes
 excerpt: "A CNN-LSTM framework for predicting haptic attributes from tactile data. Presented at ACM VRST 2023."
 date: 2023-10-09
 venue: 'ACM Symposium on Virtual Reality Software and Technology (VRST)'
-paperurl: 'https://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf'
+paperurl: 'https://doi.org/10.1145/3611659.3615714'
 citation: 'Mudassir Ibrahim Awan, Waseem Hassan, and Jeon Seokhee.'
 description: "This paper presents a CNN-LSTM deep learning network for predicting multi-dimensional haptic attribute values based on tactile signals generated from textured surfaces. The algorithm evaluates unseen textures, achieving reliable performance."
 keywords: "haptic attributes, tactile data, CNN-LSTM, textured surfaces, deep learning, VRST 2023"
@@ -16,7 +16,7 @@ This paper introduces a framework to predict multi-dimensional haptic attribute 
 
 A prediction algorithm is implemented that takes acceleration data and returns coordinates in the haptic attribute space. A quantitative evaluation was conducted to inspect the reliability of the algorithm on unseen textures, showing that the model outperformed other similar models.
 
-[Download paper here](https://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf)
+[Download paper here (PDF)](https://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf)
 
 <script type="application/ld+json">
 {
