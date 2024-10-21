@@ -9,23 +9,31 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    
+    <!-- Meta description for SEO, dynamically use the page excerpt -->
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}">
+    {% endif %}
+    
+    <!-- Meta keywords if you want to add them (not highly useful for SEO nowadays) -->
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+    {% endif %}
+    
+    <!-- Schema.org JSON-LD for structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "{{ page.title | escape }}",
+      "description": "{{ page.excerpt | strip_html | strip_newlines }}",
+      "url": "{{ page.url | absolute_url }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}"
+      }
+    }
+    </script>
+    
   </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
