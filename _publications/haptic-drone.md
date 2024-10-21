@@ -29,8 +29,7 @@ This paper introduces a dome-shaped HapticDrone with a hemispherical cage made o
     },
     {
       "@type": "Person",
-      "name": "Ahsan Raza",
-     
+      "name": "Ahsan Raza"
     },
     {
       "@type": "Person",
