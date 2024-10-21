@@ -71,7 +71,7 @@ By leveraging the **force-thrust relationship**, this system addresses the limit
 
 ---
 
-For more information on **Encountered-type** haptic drone, explore the paper [HapticDrone for 3DoF](https://www.researchgate.net/publication/373007277_DroneHaptics_Encountered-Type_Haptic_Interface_Using_Dome-Shaped_Drone_for_3-DoF_Force_Feedback).
+For more information on **Encountered-type** haptic-drone, explore the paper [3DoF HapticDrone](https://www.researchgate.net/publication/373007277_DroneHaptics_Encountered-Type_Haptic_Interface_Using_Dome-Shaped_Drone_for_3-DoF_Force_Feedback).
 
 ---
 
