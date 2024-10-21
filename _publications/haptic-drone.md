@@ -71,14 +71,7 @@ By leveraging the **force-thrust relationship**, this system addresses the limit
 
 ---
 
-For more information, explore the [HapticDrone for 1D Force Feedback paper](https://mudassir-awan.github.io/publications/old-paper-url).
-
-**Further Reading:**
-- [Surface Texture Classification Based on Transformer Network](https://mudassir-awan.github.io/publications/surfaceTexture)
-- [Model-Mediated Teleoperation for Remote Haptic Texture Sharing](https://mudassir-awan.github.io/publications/teleoperation)
+For more information, explore the [HapticDrone for 1D Force Feedback paper](https://ieeexplore.ieee.org/document/8357197).
 
 ---
 
-Follow me for more updates on **haptics research** and **kinesthetic interfaces**:
-- [Google Scholar](https://scholar.google.com/citations?user=VCllBHIAAAAJ&hl=en)
-- [LinkedIn](https://www.linkedin.com/in/mudassir-awan)
