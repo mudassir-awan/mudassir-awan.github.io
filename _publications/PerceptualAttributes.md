@@ -97,6 +97,43 @@ function copyBibTeX() {
 
 
 
+<!-- BibTeX citation box -->
+<div class="bibtex-container" style="width: 100%;">
+  <div class="bibtex-header" style="display: flex; justify-content: space-between; align-items: center;">
+    <h4 style="margin: 0;">Cite this paper (BibTeX):</h4>
+    <button class="copy-button" onclick="copyBibTeX()" title="Copy BibTeX to clipboard" style="background-color: #4CAF50; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;">Copy BibTeX</button>
+  </div>
+  <pre id="bibtex-code" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; font-size: 12px; margin-top: 10px; white-space: pre-wrap;">
+@inproceedings{awan2023predicting,
+  title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
+  author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
+  booktitle={Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology},
+  pages={1--9},
+  year={2023}
+}
+  </pre>
+</div>
+
+<script>
+function copyBibTeX() {
+  const bibtexText = document.getElementById('bibtex-code').textContent.trim();
+  
+  // Create a temporary text area to cleanly copy the BibTeX
+  const tempTextarea = document.createElement('textarea');
+  tempTextarea.value = bibtexText;
+  document.body.appendChild(tempTextarea);
+  tempTextarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(tempTextarea);
+  
+  // Change the button text to indicate success
+  const button = document.querySelector('.copy-button');
+  button.textContent = "Copied!";
+  setTimeout(() => {
+    button.textContent = "Copy BibTeX";
+  }, 2000); // Reset to original after 2 seconds
+}
+</script>
 
 <!-- Basic CSS for styling the BibTeX box and button -->
 <style>
@@ -105,7 +142,7 @@ function copyBibTeX() {
   border: 1px solid #d1d5da;
   padding: 12px;
   width: 100%;
-  max-width: 700px; /* Increased width */
+  max-width: 700px; /* Increased width for better readability */
   margin-bottom: 16px;
   border-radius: 8px;
 }
