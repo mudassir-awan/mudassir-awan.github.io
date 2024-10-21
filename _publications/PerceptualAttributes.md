@@ -62,12 +62,12 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
 
 
 <!-- BibTeX citation box -->
-<div class="bibtex-container">
-  <div class="bibtex-header">
-    <h4>Cite this paper (BibTeX):</h4>
-    <button class="copy-button" onclick="copyBibTeX()">Copy BibTeX</button>
+<div class="bibtex-container" style="width: 100%;">
+  <div class="bibtex-header" style="display: flex; justify-content: space-between; align-items: center;">
+    <h4 style="margin: 0;">Cite this paper (BibTeX):</h4>
+    <button class="copy-button" onclick="copyBibTeX()" style="background-color: #4CAF50; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;">Copy BibTeX</button>
   </div>
-  <pre id="bibtex-code">
+  <pre id="bibtex-code" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; font-size: 12px; margin-top: 10px; white-space: pre-wrap;">
 @inproceedings{awan2023predicting,
   title={Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network},
   author={Awan, Mudassir Ibrahim and Hassan, Waseem and Jeon, Seokhee},
@@ -90,9 +90,11 @@ function copyBibTeX() {
   document.execCommand('copy');
   document.body.removeChild(tempTextarea);
   
-  alert("BibTeX copied!");
+  // Show an alert when the copy is successful
+  alert("BibTeX copied to clipboard!");
 }
 </script>
+
 
 
 
