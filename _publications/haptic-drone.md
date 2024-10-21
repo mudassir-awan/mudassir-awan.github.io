@@ -9,7 +9,7 @@ paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10202318'
 citation: 'Mudassir Ibrahim Awan, Ahsan Raza, and Jeon Seokhee.'
 description: 'Introducing a dome-shaped HapticDrone for 3-DoF force feedback using a hemispherical aluminum mesh cage.'
 keywords: 'haptics, drone, force feedback, UR 2023'
-layout: default
+
 ---
 
 This paper introduces a dome-shaped HapticDrone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
