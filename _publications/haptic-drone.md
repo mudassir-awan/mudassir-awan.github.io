@@ -5,7 +5,7 @@ permalink: /publications/haptic-drone
 excerpt: ''
 date: 2023-05-19
 venue: 'International Conference on Ubiquitous Robots (UR)'
-paperurl: ' '
+paperurl: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10202318
 citation: 'Mudassir Ibrahim Awan, Ahsan Raza, and Jeon Seokhee.'
 ---
 
