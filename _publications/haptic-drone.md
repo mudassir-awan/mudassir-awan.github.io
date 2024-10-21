@@ -13,5 +13,5 @@ keywords: 'haptics, drone, force feedback, UR 2023'
 
 This paper introduces a dome-shaped HapticDrone with a hemispherical cage made of aluminum mesh. The cage enables controllable 3D force feedback, improving usability and user safety. Experimental measurements and mathematical formulations establish an accurate force-thrust relationship. The system's force rendering accuracy was evaluated, achieving a low error rate of less than 8.6%, ensuring perceptually accurate force feedback.
 
-[Download] (http://mudassir-awan.github.io/files/DroneHaptics.pdf)
+[Download] (http://mudassir-awan.github.io/files/haptic-drone.pdf)
 
