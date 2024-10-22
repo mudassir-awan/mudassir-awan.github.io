@@ -60,8 +60,6 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
 ---
 
 
-
-
 <!-- BibTeX citation box -->
 <div class="bibtex-container" style="width: 100%;">
   <div class="bibtex-header" style="display: flex; justify-content: space-between; align-items: center;">
@@ -83,20 +81,34 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
 function copyBibTeX() {
   const bibtexText = document.getElementById('bibtex-code').textContent.trim();
   
-  // Create a temporary text area to cleanly copy the BibTeX
-  const tempTextarea = document.createElement('textarea');
-  tempTextarea.value = bibtexText;
-  document.body.appendChild(tempTextarea);
-  tempTextarea.select();
-  document.execCommand('copy');
-  document.body.removeChild(tempTextarea);
-  
-  // Change the button text to indicate success
-  const button = document.querySelector('.copy-button');
-  button.textContent = "Copied!";
-  setTimeout(() => {
-    button.textContent = "Copy BibTeX";
-  }, 2000); // Reset to original after 2 seconds
+  // Check if the Clipboard API is available
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(bibtexText).then(() => {
+      // Change button text on successful copy
+      const button = document.querySelector('.copy-button');
+      button.textContent = "Copied!";
+      setTimeout(() => {
+        button.textContent = "Copy BibTeX";
+      }, 2000); // Reset to original after 2 seconds
+    }).catch(err => {
+      console.error("Failed to copy text: ", err);
+    });
+  } else {
+    // Fallback for older browsers
+    const tempTextarea = document.createElement('textarea');
+    tempTextarea.value = bibtexText;
+    document.body.appendChild(tempTextarea);
+    tempTextarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempTextarea);
+    
+    // Change button text for older browsers
+    const button = document.querySelector('.copy-button');
+    button.textContent = "Copied!";
+    setTimeout(() => {
+      button.textContent = "Copy BibTeX";
+    }, 2000); // Reset after 2 seconds
+  }
 }
 </script>
 
