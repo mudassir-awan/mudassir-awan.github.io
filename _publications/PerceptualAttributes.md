@@ -60,13 +60,10 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
 ---
 
 
-
-
 <!-- BibTeX citation box -->
 <div class="bibtex-container" style="width: 100%;">
   <div class="bibtex-header" style="display: flex; justify-content: space-between; align-items: center;">
     <h4 style="margin: 0;">Cite this paper (BibTeX):</h4>
-    <button class="copy-button" onclick="copyBibTeX()" title="Copy BibTeX to clipboard" style="background-color: #4CAF50; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;">Copy BibTeX</button>
   </div>
   <pre id="bibtex-code" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; font-size: 12px; margin-top: 10px; white-space: pre-wrap;">
 @inproceedings{awan2023predicting,
@@ -79,54 +76,7 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
   </pre>
 </div>
 
-
-
-
-{% raw %}
-<script>
-function copyBibTeX() {
-  const bibtexText = document.getElementById('bibtex-code').textContent.trim();
-  
-  // Check if the Clipboard API is available
-  if (navigator.clipboard) {
-    navigator.clipboard.writeText(bibtexText).then(() => {
-      // Change button text on successful copy
-      const button = document.querySelector('.copy-button');
-      button.textContent = "Copied!";
-      setTimeout(() => {
-        button.textContent = "Copy BibTeX";
-      }, 2000); // Reset to original after 2 seconds
-    }).catch(err => {
-      console.error("Failed to copy text: ", err);
-    });
-  } else {
-    // Fallback for older browsers
-    try {
-      const tempTextarea = document.createElement('textarea');
-      tempTextarea.value = bibtexText;
-      document.body.appendChild(tempTextarea);
-      tempTextarea.select();
-      const successful = document.execCommand('copy');
-      document.body.removeChild(tempTextarea);
-      
-      if (successful) {
-        const button = document.querySelector('.copy-button');
-        button.textContent = "Copied!";
-        setTimeout(() => {
-          button.textContent = "Copy BibTeX";
-        }, 2000);
-      } else {
-        alert("Copying to clipboard failed. Please try manually.");
-      }
-    } catch (err) {
-      console.error("Error copying text manually: ", err);
-    }
-  }
-}
-</script>
-{% endraw %}
-
-<!-- Basic CSS for styling the BibTeX box and button -->
+<!-- Basic CSS for styling the BibTeX box -->
 <style>
 .bibtex-container {
   background-color: #f6f8fa;
@@ -148,20 +98,6 @@ function copyBibTeX() {
 .bibtex-header h4 {
   margin: 0;
   font-size: 16px; /* Adjust as needed */
-}
-
-.copy-button {
-  padding: 5px 10px;
-  background-color: #28a745;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 12px;
-  border-radius: 4px;
-}
-
-.copy-button:hover {
-  background-color: #218838;
 }
 
 .bibtex-container pre {
