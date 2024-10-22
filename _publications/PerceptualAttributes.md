@@ -130,7 +130,7 @@ function copyBibTeX() {
   border: 1px solid #d1d5da;
   padding: 12px;
   width: 100%;
-  max-width: 700px; /* Increased width for better readability */
+  max-width: 800px; /* Increased width for better readability */
   margin-bottom: 16px;
   border-radius: 8px;
 }
