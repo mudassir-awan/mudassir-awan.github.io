@@ -95,19 +95,26 @@ function copyBibTeX() {
     });
   } else {
     // Fallback for older browsers
-    const tempTextarea = document.createElement('textarea');
-    tempTextarea.value = bibtexText;
-    document.body.appendChild(tempTextarea);
-    tempTextarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempTextarea);
-    
-    // Change button text for older browsers
-    const button = document.querySelector('.copy-button');
-    button.textContent = "Copied!";
-    setTimeout(() => {
-      button.textContent = "Copy BibTeX";
-    }, 2000); // Reset after 2 seconds
+    try {
+      const tempTextarea = document.createElement('textarea');
+      tempTextarea.value = bibtexText;
+      document.body.appendChild(tempTextarea);
+      tempTextarea.select();
+      const successful = document.execCommand('copy');
+      document.body.removeChild(tempTextarea);
+      
+      if (successful) {
+        const button = document.querySelector('.copy-button');
+        button.textContent = "Copied!";
+        setTimeout(() => {
+          button.textContent = "Copy BibTeX";
+        }, 2000);
+      } else {
+        alert("Copying to clipboard failed. Please try manually.");
+      }
+    } catch (err) {
+      console.error("Error copying text manually: ", err);
+    }
   }
 }
 </script>
