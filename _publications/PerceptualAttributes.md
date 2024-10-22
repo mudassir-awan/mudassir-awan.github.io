@@ -60,6 +60,8 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
 ---
 
 
+
+
 <!-- BibTeX citation box -->
 <div class="bibtex-container" style="width: 100%;">
   <div class="bibtex-header" style="display: flex; justify-content: space-between; align-items: center;">
@@ -77,6 +79,7 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
   </pre>
 </div>
 
+{% raw %}
 <script>
 function copyBibTeX() {
   const bibtexText = document.getElementById('bibtex-code').textContent.trim();
@@ -118,6 +121,7 @@ function copyBibTeX() {
   }
 }
 </script>
+{% endraw %}
 
 <!-- Basic CSS for styling the BibTeX box and button -->
 <style>
