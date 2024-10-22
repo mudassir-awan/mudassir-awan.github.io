@@ -18,46 +18,6 @@ A prediction algorithm is implemented that takes acceleration data and returns c
 
 [Download (PDF)](https://mudassir-awan.github.io/files/Predicting_Perceptual_Haptic_Attributes.pdf)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "name": "Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network",
-  "author": [
-    {
-      "@type": "Person",
-      "name": "Mudassir Ibrahim Awan",
-      "url": "https://scholar.google.com/citations?user=VCllBHIAAAAJ&hl=en"
-    },
-    {
-      "@type": "Person",
-      "name": "Waseem Hassan"
-    },
-    {
-      "@type": "Person",
-      "name": "Jeon Seokhee",
-      "url": "https://scholar.google.com/citations?user=LBKIIU8AAAAJ&hl=en"
-    }
-  ],
-  "datePublished": "2023-10-09T00:00:00+00:00",
-  "publisher": {
-    "@type": "Organization",
-    "name": "ACM Symposium on Virtual Reality Software and Technology (VRST)"
-  },
-  "inLanguage": "en",
-  "headline": "Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network",
-  "url": "https://dl.acm.org/doi/10.1145/3611659.3615714",
-  "image": "https://mudassir-awan.github.io/images/VRST.png",
-  "citation": "Mudassir Ibrahim Awan, Waseem Hassan, and Jeon Seokhee. Presented at ACM VRST 2023.",
-  "description": "This paper introduces a CNN-LSTM framework for predicting haptic attributes based on tactile signals from textured surfaces."
-}
-</script>
-
----
-
-For more information, explore the full paper on [ResearchGate](https://www.researchgate.net/publication/374578828_Predicting_Perceptual_Haptic_Attributes_of_Textured_Surface_from_Tactile_Data_Based_on_Deep_CNN-LSTM_Network), [ACM](https://dl.acm.org/doi/10.1145/3611659.3615714), or [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:IjCSPb-OGe4C).
-
----
 
 
 <!-- BibTeX citation box container -->
@@ -119,3 +79,48 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
   line-height: 1.4; /* Set the line height to improve readability */
 }
 </style>
+
+
+---
+
+For more information, explore the full paper on [ResearchGate](https://www.researchgate.net/publication/374578828_Predicting_Perceptual_Haptic_Attributes_of_Textured_Surface_from_Tactile_Data_Based_on_Deep_CNN-LSTM_Network), [ACM](https://dl.acm.org/doi/10.1145/3611659.3615714), or [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:IjCSPb-OGe4C).
+
+---
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Mudassir Ibrahim Awan",
+      "url": "https://scholar.google.com/citations?user=VCllBHIAAAAJ&hl=en"
+    },
+    {
+      "@type": "Person",
+      "name": "Waseem Hassan"
+    },
+    {
+      "@type": "Person",
+      "name": "Jeon Seokhee",
+      "url": "https://scholar.google.com/citations?user=LBKIIU8AAAAJ&hl=en"
+    }
+  ],
+  "datePublished": "2023-10-09T00:00:00+00:00",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ACM Symposium on Virtual Reality Software and Technology (VRST)"
+  },
+  "inLanguage": "en",
+  "headline": "Predicting Perceptual Haptic Attributes of Textured Surface from Tactile Data Based on Deep CNN-LSTM Network",
+  "url": "https://dl.acm.org/doi/10.1145/3611659.3615714",
+  "image": "https://mudassir-awan.github.io/images/VRST.png",
+  "citation": "Mudassir Ibrahim Awan, Waseem Hassan, and Jeon Seokhee. Presented at ACM VRST 2023.",
+  "description": "This paper introduces a CNN-LSTM framework for predicting haptic attributes based on tactile signals from textured surfaces."
+}
+</script>
+
