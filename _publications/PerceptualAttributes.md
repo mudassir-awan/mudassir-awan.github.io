@@ -79,6 +79,9 @@ For more information, explore the full paper on [ResearchGate](https://www.resea
   </pre>
 </div>
 
+
+
+
 {% raw %}
 <script>
 function copyBibTeX() {
@@ -168,7 +171,7 @@ function copyBibTeX() {
   padding: 8px;
   border-radius: 6px;
   font-family: "Courier New", Courier, monospace;
-  font-size: 14px; /* Adjust font size */
+  font-size: 12px; /* Adjust font size */
   margin: 0;
   line-height: 1.4;
 }
