@@ -9,17 +9,20 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ baseurl }}/images/website_logo.png">
+
     <!-- Meta description for SEO, dynamically use the page excerpt -->
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}">
     {% endif %}
-    
+
     <!-- Meta keywords if you want to add them (not highly useful for SEO nowadays) -->
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
     {% endif %}
-    
+
     <!-- Schema.org JSON-LD for structured data -->
     <script type="application/ld+json">
     {
@@ -41,7 +44,12 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    
+    <!-- Website Logo and Masthead -->
+    <header>
+      <img src="{{ baseurl }}/images/website_logo.png" alt="Website Logo" class="logo" style="max-height: 60px;">
+      {% include masthead.html %}
+    </header>
 
     <!-- Main content of the page -->
     <main role="main">
