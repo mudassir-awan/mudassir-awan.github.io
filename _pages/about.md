@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Mudassir Ibrahim Awan - Haptic Researcher and MS-PHD Student"
-#excerpt: "Mudassir Ibrahim Awan's research in haptics, texture modeling, teleoperation, deep learning and signal processing."
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
