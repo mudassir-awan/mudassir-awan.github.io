@@ -11,21 +11,25 @@ var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
+var isUpdating = false;  // New flag to prevent multiple updates
 
 function updateNav() {
+    if (isUpdating) return; // Exit if an update is already in progress
+
+    isUpdating = true;  // Set flag to prevent further updates while in progress
+
     var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
     var visibleWidth = $vlinks.width();
-    var moveCount = 0; // Limit the number of moves to avoid infinite loops
+    var moveCount = 0; // To avoid infinite loops
 
-    // Move items to the hidden list if the visible list is overflowing
+    // Move items to the hidden list if visible list overflows
     while (visibleWidth > availableSpace && $vlinks.children().length > 0 && moveCount < 50) {
-        // Record the width of the list before moving items
         breaks.push(visibleWidth);
 
         // Move the last visible item to the hidden list
         $vlinks.children().last().prependTo($hlinks);
 
-        // Recalculate the available space and visible width
+        // Recalculate space
         availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
         visibleWidth = $vlinks.width();
 
@@ -34,7 +38,7 @@ function updateNav() {
             $btn.removeClass('hidden');
         }
 
-        moveCount++;  // Increment the move counter to avoid infinite loops
+        moveCount++;
     }
 
     // Move items back to the visible list if there is enough space
@@ -42,7 +46,7 @@ function updateNav() {
         $hlinks.children().first().appendTo($vlinks);
         breaks.pop();
 
-        // Recalculate available space and visible width
+        // Recalculate space
         availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
         visibleWidth = $vlinks.width();
     }
@@ -55,12 +59,14 @@ function updateNav() {
 
     // Keep the count of hidden items updated on the button (for accessibility)
     $btn.attr("count", breaks.length);
+
+    isUpdating = false;  // Reset the flag after the update is complete
 }
 
 // Window listeners
 
 $(window).resize(function() {
-    setTimeout(updateNav, 100); // Throttle the resize handler with a delay to avoid too many calls
+    setTimeout(updateNav, 100); // Throttle the resize handler with a delay
 });
 
 $btn.on('click', function() {
