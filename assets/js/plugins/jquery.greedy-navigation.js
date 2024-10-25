@@ -11,41 +11,44 @@ var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
+var moveCountLimit = 50; // A limit to avoid infinite loops
 
 function updateNav() {
     var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-    var moveCount = 0;  // Add a counter to limit the number of moves to avoid infinite loop
+    var visibleWidth = $vlinks.width();
+    var moveCount = 0; // Counter for moves to prevent infinite recursion
 
-    // Keep moving items until there's enough space or no more items to move
-    while ($vlinks.width() > availableSpace && $vlinks.children().length > 0 && moveCount < 50) {  // Added moveCount to avoid infinite loop
-        // Record the width of the list
-        breaks.push($vlinks.width());
+    // Move items to the hidden list if visible list overflows
+    while (visibleWidth > availableSpace && $vlinks.children().length > 0 && moveCount < moveCountLimit) {
+        breaks.push(visibleWidth);
 
-        // Move item to the hidden list
+        // Move the last visible item to the hidden list
         $vlinks.children().last().prependTo($hlinks);
+
+        // Recalculate space
+        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+        visibleWidth = $vlinks.width();
 
         // Show the dropdown button
         if ($btn.hasClass('hidden')) {
             $btn.removeClass('hidden');
         }
 
-        // Recalculate available space after each move
-        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-        moveCount++;  // Increment the move counter
+        moveCount++;
     }
 
     // Move items back to the visible list if there is space
     while (availableSpace > breaks[breaks.length - 1] && $hlinks.children().length > 0) {
-        // Move the item to the visible list
         $hlinks.children().first().appendTo($vlinks);
         breaks.pop();
 
-        // Recalculate available space after each move
+        // Recalculate space
         availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+        visibleWidth = $vlinks.width();
     }
 
-    // Hide the dropdown button if the hidden list is empty
-    if (breaks.length < 1) {
+    // Hide the dropdown button if there are no hidden items left
+    if ($hlinks.children().length === 0) {
         $btn.addClass('hidden');
         $hlinks.addClass('hidden');
     }
@@ -57,7 +60,7 @@ function updateNav() {
 // Window listeners
 
 $(window).resize(function() {
-    updateNav();
+    setTimeout(updateNav, 100); // Throttle the resize handler with a small delay
 });
 
 $btn.on('click', function() {
@@ -66,4 +69,6 @@ $btn.on('click', function() {
 });
 
 // Initialize the navigation update on page load
-updateNav();
+$(document).ready(function() {
+    updateNav();
+});
