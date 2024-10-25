@@ -1,87 +1,87 @@
 /*
-* Greedy Navigation with Fixed Stack Overflow Prevention
+* Greedy Navigation with Direct DOM Manipulation
 */
-var $nav = $('#site-nav');
-var $btn = $('#site-nav button');
-var $vlinks = $('#site-nav .visible-links');
-var $hlinks = $('#site-nav .hidden-links');
+var $nav = document.getElementById('site-nav');
+var $btn = $nav.querySelector('button');
+var $vlinks = $nav.querySelector('.visible-links');
+var $hlinks = $nav.querySelector('.hidden-links');
 var breaks = [];
 var isUpdating = false;
-
-function calculateWidths() {
-    // Calculate widths first, before any DOM changes
-    var navWidth = $nav.width();
-    var btnWidth = $btn.outerWidth(true);
-    return {
-        availableSpace: $btn.hasClass('hidden') ? navWidth : navWidth - btnWidth - 30,
-        visibleWidth: $vlinks.outerWidth(true)
-    };
-}
 
 function updateNav() {
     if (isUpdating) return;
     isUpdating = true;
     
     try {
-        // Get initial measurements before making any changes
-        var measurements = calculateWidths();
-        var availableSpace = measurements.availableSpace;
-        var visibleWidth = measurements.visibleWidth;
+        // Get measurements
+        var availableSpace = $btn.classList.contains('hidden') ? 
+            $nav.offsetWidth : 
+            $nav.offsetWidth - $btn.offsetWidth - 30;
         
-        // Move items to hidden list if overflowing
-        while (visibleWidth > availableSpace && $vlinks.children().length > 0) {
+        var visibleWidth = $vlinks.offsetWidth;
+        
+        // Handle overflow
+        while (visibleWidth > availableSpace && $vlinks.children.length > 0) {
             breaks.push(visibleWidth);
-            $vlinks.children().last().prependTo($hlinks);
+            $hlinks.insertBefore($vlinks.lastElementChild, $hlinks.firstChild);
+            visibleWidth = $vlinks.offsetWidth;
             
-            // Recalculate after DOM change
-            measurements = calculateWidths();
-            availableSpace = measurements.availableSpace;
-            visibleWidth = measurements.visibleWidth;
-            
-            if ($btn.hasClass('hidden')) {
-                $btn.removeClass('hidden');
+            if ($btn.classList.contains('hidden')) {
+                $btn.classList.remove('hidden');
             }
         }
         
-        // Move items back to visible list if space allows
-        while (availableSpace > breaks[breaks.length - 1] && $hlinks.children().length > 0) {
-            $hlinks.children().first().appendTo($vlinks);
+        // Handle underflow
+        while (availableSpace > breaks[breaks.length - 1] && $hlinks.children.length > 0) {
+            $vlinks.appendChild($hlinks.firstElementChild);
             breaks.pop();
-            
-            // Recalculate after DOM change
-            measurements = calculateWidths();
-            availableSpace = measurements.availableSpace;
-            visibleWidth = measurements.visibleWidth;
+            visibleWidth = $vlinks.offsetWidth;
         }
         
-        // Toggle dropdown visibility
-        if ($hlinks.children().length === 0) {
-            $btn.addClass('hidden');
-            $hlinks.addClass('hidden');
-        } else {
-            $hlinks.removeClass('hidden');
+        // Update button and hidden links visibility
+        if ($hlinks.children.length === 0) {
+            $btn.classList.add('hidden');
+            $hlinks.classList.add('hidden');
         }
         
-        $btn.attr("count", breaks.length);
+        // Update count
+        $btn.setAttribute("count", breaks.length);
+        
+    } catch (e) {
+        console.error('Navigation update error:', e);
     } finally {
         isUpdating = false;
     }
 }
 
-// Throttle resize events
-var resizeTimeout;
-$(window).resize(function() {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(updateNav, 200);
+// Throttled resize handler
+var resizeTimeout = null;
+window.addEventListener('resize', function() {
+    if (resizeTimeout) {
+        clearTimeout(resizeTimeout);
+    }
+    resizeTimeout = setTimeout(function() {
+        updateNav();
+    }, 200);
 });
 
-// Toggle dropdown menu on button click
-$btn.on('click', function() {
-    $hlinks.toggleClass('hidden');
-    $(this).toggleClass('close');
+// Button click handler
+$btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    $hlinks.classList.toggle('hidden');
+    this.classList.toggle('close');
 });
 
-// Initialize on page load
-$(document).ready(function() {
+// Initialize on load
+document.addEventListener('DOMContentLoaded', function() {
     updateNav();
 });
+
+// Optional: Reset navigation state if needed
+function resetNav() {
+    while ($hlinks.firstChild) {
+        $vlinks.appendChild($hlinks.firstChild);
+    }
+    breaks = [];
+    updateNav();
+}
