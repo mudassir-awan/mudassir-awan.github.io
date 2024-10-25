@@ -13,57 +13,56 @@ var $hlinks = $('#site-nav .hidden-links');
 var breaks = [];
 
 function updateNav() {
+    var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+    var moveCount = 0;  // Add a counter to limit the number of moves to avoid infinite loop
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+    // Keep moving items until there's enough space or no more items to move
+    while ($vlinks.width() > availableSpace && $vlinks.children().length > 0 && moveCount < 50) {  // Added moveCount to avoid infinite loop
+        // Record the width of the list
+        breaks.push($vlinks.width());
 
-  // Keep moving items until there's enough space or no more items to move
-  while ($vlinks.width() > availableSpace && $vlinks.children().length > 0) {
+        // Move item to the hidden list
+        $vlinks.children().last().prependTo($hlinks);
 
-    // Record the width of the list
-    breaks.push($vlinks.width());
+        // Show the dropdown button
+        if ($btn.hasClass('hidden')) {
+            $btn.removeClass('hidden');
+        }
 
-    // Move item to the hidden list
-    $vlinks.children().last().prependTo($hlinks);
-
-    // Show the dropdown btn
-    if ($btn.hasClass('hidden')) {
-      $btn.removeClass('hidden');
+        // Recalculate available space after each move
+        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+        moveCount++;  // Increment the move counter
     }
 
-    // Recalculate available space after each move
-    availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-  }
+    // Move items back to the visible list if there is space
+    while (availableSpace > breaks[breaks.length - 1] && $hlinks.children().length > 0) {
+        // Move the item to the visible list
+        $hlinks.children().first().appendTo($vlinks);
+        breaks.pop();
 
-  // There is space for another item in the nav
-  while (availableSpace > breaks[breaks.length - 1] && $hlinks.children().length > 0) {
+        // Recalculate available space after each move
+        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+    }
 
-    // Move the item to the visible list
-    $hlinks.children().first().appendTo($vlinks);
-    breaks.pop();
+    // Hide the dropdown button if the hidden list is empty
+    if (breaks.length < 1) {
+        $btn.addClass('hidden');
+        $hlinks.addClass('hidden');
+    }
 
-    // Recalculate available space after each move
-    availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-  }
-
-  // Hide the dropdown btn if hidden list is empty
-  if (breaks.length < 1) {
-    $btn.addClass('hidden');
-    $hlinks.addClass('hidden');
-  }
-
-  // Keep counter updated
-  $btn.attr("count", breaks.length);
+    // Keep counter updated
+    $btn.attr("count", breaks.length);
 }
 
 // Window listeners
 
 $(window).resize(function() {
-  updateNav();
+    updateNav();
 });
 
 $btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
+    $hlinks.toggleClass('hidden');
+    $(this).toggleClass('close');
 });
 
 // Initialize the navigation update on page load
