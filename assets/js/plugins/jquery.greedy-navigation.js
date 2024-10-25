@@ -16,8 +16,8 @@ function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
-  // The visible list is overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  // Keep moving items until there's enough space or no more items to move
+  while ($vlinks.width() > availableSpace && $vlinks.children().length > 0) {
 
     // Record the width of the list
     breaks.push($vlinks.width());
@@ -26,36 +26,33 @@ function updateNav() {
     $vlinks.children().last().prependTo($hlinks);
 
     // Show the dropdown btn
-    if($btn.hasClass('hidden')) {
+    if ($btn.hasClass('hidden')) {
       $btn.removeClass('hidden');
     }
 
-  // The visible list is not overflowing
-  } else {
+    // Recalculate available space after each move
+    availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  }
 
-    // There is space for another item in the nav
-    if(availableSpace > breaks[breaks.length-1]) {
+  // There is space for another item in the nav
+  while (availableSpace > breaks[breaks.length - 1] && $hlinks.children().length > 0) {
 
-      // Move the item to the visible list
-      $hlinks.children().first().appendTo($vlinks);
-      breaks.pop();
-    }
+    // Move the item to the visible list
+    $hlinks.children().first().appendTo($vlinks);
+    breaks.pop();
 
-    // Hide the dropdown btn if hidden list is empty
-    if(breaks.length < 1) {
-      $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
-    }
+    // Recalculate available space after each move
+    availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  }
+
+  // Hide the dropdown btn if hidden list is empty
+  if (breaks.length < 1) {
+    $btn.addClass('hidden');
+    $hlinks.addClass('hidden');
   }
 
   // Keep counter updated
   $btn.attr("count", breaks.length);
-
-  // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
-    updateNav();
-  }
-
 }
 
 // Window listeners
@@ -69,4 +66,5 @@ $btn.on('click', function() {
   $(this).toggleClass('close');
 });
 
+// Initialize the navigation update on page load
 updateNav();
