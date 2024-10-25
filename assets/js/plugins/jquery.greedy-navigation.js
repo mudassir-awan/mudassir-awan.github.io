@@ -1,5 +1,5 @@
 /*
-* Greedy Navigation with Refined Logic to Avoid Recursion
+* Greedy Navigation with Refined Logic to Avoid Recursion and Stack Overflow
 *
 */
 
@@ -12,7 +12,8 @@ var breaks = [];
 var isUpdating = false;  // Flag to prevent multiple simultaneous updates
 
 function updateNav() {
-    if (isUpdating) return; // Exit if an update is already in progress
+    // Exit if an update is already in progress to prevent re-entry
+    if (isUpdating) return;
 
     isUpdating = true;  // Set flag to indicate an update is in progress
 
@@ -41,7 +42,7 @@ function updateNav() {
     }
 
     // Move items back to the visible list if there is space
-    while (availableSpace > breaks[breaks.length - 1] && $hlinks.children().length > 0) {
+    while (availableSpace > (breaks[breaks.length - 1] || 0) && $hlinks.children().length > 0) {
         $hlinks.children().first().appendTo($vlinks);
         breaks.pop();
 
@@ -56,7 +57,7 @@ function updateNav() {
         $hlinks.addClass('hidden');
     }
 
-    // Update button count
+    // Update button count for feedback on navigation
     $btn.attr("count", breaks.length);
 
     // Reset the flag after completing the update
