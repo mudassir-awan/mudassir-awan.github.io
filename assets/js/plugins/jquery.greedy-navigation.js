@@ -1,6 +1,5 @@
 /*
-* Greedy Navigation with Refined Logic to Avoid Recursion and Stack Overflow
-*
+* Greedy Navigation with Robust Logic to Prevent Recursive Stack Overflow
 */
 
 var $nav = $('#site-nav');
@@ -9,73 +8,64 @@ var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
-var isUpdating = false;  // Flag to prevent multiple simultaneous updates
+var isUpdating = false;  // Prevents recursive updates
 
 function updateNav() {
-    // Exit if an update is already in progress to prevent re-entry
-    if (isUpdating) return;
+    if (isUpdating) return; // Avoid recursion if function is already running
+    isUpdating = true;
 
-    isUpdating = true;  // Set flag to indicate an update is in progress
+    let availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.outerWidth(true) - 30;
+    let visibleWidth = $vlinks.outerWidth(true);
+    let moveCount = 0;
 
-    var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-    var visibleWidth = $vlinks.width();
-    var moveCount = 0; // Prevent infinite loops by limiting moves
-
-    // Move items to the hidden list if the visible list is overflowing
+    // Move items to hidden list if overflowing
     while (visibleWidth > availableSpace && $vlinks.children().length > 0 && moveCount < 50) {
-        // Record the width before moving
         breaks.push(visibleWidth);
+        $vlinks.children().last().prependTo($hlinks); // Move last visible to hidden
 
-        // Move the last visible item to the hidden list
-        $vlinks.children().last().prependTo($hlinks);
+        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.outerWidth(true) - 30;
+        visibleWidth = $vlinks.outerWidth(true);
 
-        // Recalculate available space and visible width
-        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-        visibleWidth = $vlinks.width();
-
-        // Show the dropdown button if it is hidden
         if ($btn.hasClass('hidden')) {
             $btn.removeClass('hidden');
         }
-
-        moveCount++;  // Limit loop iterations
+        moveCount++;  // Limits loop iterations
     }
 
-    // Move items back to the visible list if there is space
+    // Move items back to visible list if space allows
     while (availableSpace > (breaks[breaks.length - 1] || 0) && $hlinks.children().length > 0) {
         $hlinks.children().first().appendTo($vlinks);
         breaks.pop();
 
-        // Recalculate available space and visible width
-        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-        visibleWidth = $vlinks.width();
+        availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.outerWidth(true) - 30;
+        visibleWidth = $vlinks.outerWidth(true);
     }
 
-    // Hide the dropdown button if no items are in the hidden list
+    // Toggle dropdown visibility
     if ($hlinks.children().length === 0) {
         $btn.addClass('hidden');
         $hlinks.addClass('hidden');
     }
 
-    // Update button count for feedback on navigation
+    // Update button count for visible items
     $btn.attr("count", breaks.length);
 
-    // Reset the flag after completing the update
-    isUpdating = false;
+    isUpdating = false; // Reset flag after update
 }
 
-// Throttle window resize listener to reduce redundant calls
+// Throttle resize events
 $(window).resize(function() {
     clearTimeout(window.updateNavTimeout);
-    window.updateNavTimeout = setTimeout(updateNav, 200); // Throttle updates with a delay
+    window.updateNavTimeout = setTimeout(updateNav, 200); 
 });
 
+// Toggle dropdown menu on button click
 $btn.on('click', function() {
     $hlinks.toggleClass('hidden');
     $(this).toggleClass('close');
 });
 
-// Initialize navigation updates on page load
+// Initialize on page load
 $(document).ready(function() {
     updateNav();
 });
