@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: " "
-excerpt: "About me"
+title: "Haptic Researcher and MS-PHD Student"
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+
 <!-- <h2>About me</h2> -->
 <!-- <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 20px;">
   I'm a research assistant at <a href="http://haptics.khu.ac.kr/">Haptics and Virtual Reality Lab</a> and a MS-PHD combined candidate at <a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a> in South Korea. I'm advised by <a href="http://haptics.khu.ac.kr/jeon/">Professor Seokhee Jeon</a> and work on data-driven modeling and rendering of haptic properties to generate realistic haptic feedback in VR environments.
@@ -23,7 +25,7 @@ redirect_from:
 
 
 <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 15px; padding-left: 40px; padding-right: 40px;">
-  I'm a research assistant at <a href="http://haptics.khu.ac.kr/">Haptics and Virtual Reality Lab</a> and a MS-PHD combined student at <a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a> in South Korea. I'm advised by <a href="http://haptics.khu.ac.kr/jeon/">Professor Seokhee Jeon</a> and work on data-driven modeling and rendering of haptic properties to generate realistic haptic feedback in VR environments.
+  I am a research assistant at <a href="http://haptics.khu.ac.kr/">Haptics and Virtual Reality Lab</a> and a MS-PHD combined student at <a href="https://www.khu.ac.kr/eng/main/index.do">Kyung Hee University</a>. I'm advised by <a href="http://haptics.khu.ac.kr/jeon/">Professor Seokhee Jeon</a> and work on data-driven modeling and rendering of haptic properties to generate realistic haptic feedback in VR environments.
 </p>
 
 <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 15px; padding-left: 40px; padding-right: 40px;">
@@ -33,11 +35,6 @@ redirect_from:
 <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 15px; padding-left: 40px; padding-right: 40px;">
   Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
 </p>
-
-<p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 15px; padding-left: 40px; padding-right: 40px;">
-  <a href="http://mudassir-awan.github.io/files/Mudassir_Resume_2023.pdf">My Full CV</a>  
-</p>
-
 
 
 
@@ -101,7 +98,7 @@ You can also find the full list of my publications [<span style="color:blue">her
 <table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
-      <img src="/images/drone.png" alt="Profile Picture" width="160" height="300" style="margin-right: 10px;">
+      <img src="/images/drone.png" alt="Haptic Drone: Encountered type Dome-shaped haptic drone for 3-DoF force feedback" width="160" height="300" 
     </td>
     <td style="width: 75%; text-align: justify; border: none;">
       <h3><a href="https://mudassir-awan.github.io/publications/haptic-drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR 2023)</h3>
