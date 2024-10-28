@@ -98,7 +98,8 @@ You can also find the full list of my publications [<span style="color:blue">her
 <table style="width: 100%; border-collapse: collapse; border: 0;">
   <tr>
     <td style="width: 25%; text-align: center; border: none;">
-      <img src="/images/drone.png" alt="Haptic Drone: Encountered type Dome-shaped haptic drone for 3-DoF force feedback" width="160" height="300style="margin-right: 10px;">
+      <img src="/images/drone.png" alt="DroneHaptics - Dome-shaped haptic drone for 3-DoF force feedback" width="160" height="300" style="margin-right: 10px;">
+
     </td>
     <td style="width: 75%; text-align: justify; border: none;">
       <h3><a href="https://mudassir-awan.github.io/publications/haptic-drone">DroneHaptics - Encountered Type Haptic Interface Using Dome-Shaped Drone for 3-DoF Force Feedback</a>(UR 2023)</h3>
