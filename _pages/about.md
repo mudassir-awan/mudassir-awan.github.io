@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mudassir Ibrahim Awan - Haptic Researcher and MS-PHD Student"
+title: "Haptic Researcher and MS-PHD Student"
 excerpt: ""
 author_profile: true
 redirect_from: 
