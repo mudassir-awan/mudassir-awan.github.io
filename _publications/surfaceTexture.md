@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/surfaceTexture
 excerpt: ''
 date: 2023-02-01
-venue: 'HCI Korea'
+venue: 'HCI Korea2'
 paperurl: ''
 citation: 'Mudassir Ibrahim Awan, and Jeon Seokhee.'
 ---
@@ -23,7 +23,7 @@ An acceleration signal is generated when a person interacts with the surface of 
   
   <!-- Preformatted text block that contains the BibTeX citation -->
   <pre id="bibtex-code" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; font-size: 12px; margin-top: 10px; white-space: pre-wrap;">
-@article{awan2023surface,
+@article{awan2023surface, Testing
   title={Surface Texture Classification Based on Transformer Network},
   author={Awan, Mudassir Ibrahim and Seokhee, Jeon},
   journal={한국 HCI 학회 학술대회},

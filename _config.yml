@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mudassir Ibrahim Awan" # Page name
+title                    : "Mudassir" # Page name
 title_separator          : "-"
 name                     : &name "Mudassir Ibrahim Awan"
 description              : &description "personal description"
-url                      : https://mudassirawan.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mudassir-awan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : ""
+repository               : "mudassir-awan/mudassir-awan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -86,9 +86,9 @@ author:
   location         : "Seoul, South Korea"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=DJKWlwoAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=VCllBHIAAAAJ&hl=en"
   email            : "mudassir.awan@hotmail.com;miawan@khu.ac.kr"
-  researchgate     : "https://www.researchgate.net/profile/Mudassir-Awan"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :

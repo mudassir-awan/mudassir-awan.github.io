@@ -9,17 +9,17 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-
+    
     <!-- Meta description for SEO, dynamically use the page excerpt -->
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}">
     {% endif %}
-
+    
     <!-- Meta keywords if you want to add them (not highly useful for SEO nowadays) -->
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
     {% endif %}
-
+    
     <!-- Schema.org JSON-LD for structured data -->
     <script type="application/ld+json">
     {
@@ -41,7 +41,8 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    
+    {% include masthead.html %}
+
     <!-- Main content of the page -->
     <main role="main">
       {{ content }}
