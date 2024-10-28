@@ -313,38 +313,43 @@
    Navigation list
    ========================================================================== */
 
-.nav__list {
+   .nav__list {
+    font-size: 1.25rem;
   
-  font-size: 1.25rem;
-
-  ul {
-    margin-bottom: 1em;
-  }
-
-  a {
-    display: block;
-    padding: 0.125em 0;
-    color: inherit;
-
-    &:hover {
-      text-decoration: underline;
+    /* Make .nav__list a flex container and align items to the right */
+    > ul {
+      display: flex;
+      justify-content: flex-end; /* Aligns navigation items to the right */
+      margin-bottom: 1em;
     }
-  }
-
-  .active {
-    margin-left: -0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    color: #fff;
-    font-weight: bold;
-    background: $primary-color;
-    border-radius: $border-radius;
-
-    &:hover {
+  
+    /* Styling for individual links */
+    a {
+      display: block;
+      padding: 0.125em 0;
+      color: inherit;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    /* Styling for active links (optional) */
+    .active {
+      margin-left: -0.5em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
       color: #fff;
+      font-weight: bold;
+      background: $primary-color;
+      border-radius: $border-radius;
+  
+      &:hover {
+        color: #fff;
+      }
     }
   }
-}
+  
 
 .nav__title {
   margin: 0;
