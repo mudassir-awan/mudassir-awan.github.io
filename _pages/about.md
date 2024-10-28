@@ -36,9 +36,11 @@ redirect_from:
   Additionally, I explore the development of novel encountered type haptic devices such as haptic drones and wearable haptic devices in VR and AR applications.
 </p>
 
+<!--
 <p style="font-size: 14px; text-align: justify; line-height: 1.5; margin-bottom: 15px; padding-left: 40px; padding-right: 40px;">
   <a href="http://mudassir-awan.github.io/files/Mudassir_Resume_2023.pdf">My Full CV</a>  
 </p>
+ -->
 
 
 
