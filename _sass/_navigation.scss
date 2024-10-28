@@ -314,12 +314,16 @@
    ========================================================================== */
 
 .nav__list {
+  
+  display: flex;
+  justify-content: flex-end; /* Aligns the navigation items to the right */
   font-size: 1.25rem;
 
   ul {
     margin-bottom: 1em;
   }
 
+  
   a {
     display: block;
     padding: 0.125em 0;
