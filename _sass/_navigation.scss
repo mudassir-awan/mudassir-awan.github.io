@@ -281,43 +281,50 @@
 
 /* Navigation list */
 .nav__list {
+  /* This ensures the nav container itself is a flex container */
+  display: flex;
+  justify-content: flex-end; /* Aligns the items to the right */
+  align-items: center; /* Centers them vertically */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Removes any default list styling */
+}
+
+.nav__list ul {
+  display: flex; /* Ensures items in the ul are also flex-aligned */
+  justify-content: flex-end; /* Aligns items to the right */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove list styling */
+}
+
+.nav__list li {
+  margin-left: 1em; /* Adds space between items */
+}
+
+.nav__list a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.125em 0;
   font-size: 1.25rem;
-  
 
-  > ul {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li {
-    margin-left: 1em;
-  }
-
-  a {
-    display: block;
-    padding: 0.125em 0;
-    color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  .active {
-    font-weight: bold;
-    background: $primary-color;
-    border-radius: $border-radius;
-    color: #fff;
-
-    &:hover {
-      color: #fff;
-    }
+  &:hover {
+    text-decoration: underline;
   }
 }
+
+.nav__list .active {
+  font-weight: bold;
+  background: $primary-color;
+  border-radius: $border-radius;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+
 
 .nav__title {
   margin: 0;
