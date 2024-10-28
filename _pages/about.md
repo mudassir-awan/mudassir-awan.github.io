@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haptic Researcher and MS-PHD Student"
+title: "Haptic Researcher and MS-PHD Studen"
 excerpt: ""
 author_profile: true
 redirect_from: 
