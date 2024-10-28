@@ -144,7 +144,7 @@ You can also find the full list of my publications [<span style="color:blue">her
       <p>
          In this study, we address the significant limitation posed by the absence of haptic feedback in prosthetics. Emphasizing the potential of closed-loop prosthetics, our objective is to provide amputees with both exteroceptive (environmental pressure) and proprioceptive (awareness of joint positions) feedback through specialized sensory systems. To this end, we incorporated coin-shaped vibration motors and 0.5-inch circular FSRs to deliver nuanced feedback from the fingertip. For an economical solution, a 3D printed hand was adopted. Our evaluation involved six healthy subjects and one amputee, with the results affirming the efficacy of our approach.
       </p>
-      <p><a href="https://ieeexplore.ieee.org/document/7791254" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VCllBHIAAAAJ&citation_for_view=VCllBHIAAAAJ:u5HHmVD_uO8C" target="_blank">Cite</a></p>
+      <p><a href="https://ieeexplore.ieee.org/document/7791254" target="_blank">Full Paper</a> &nbsp;&nbsp;&nbsp; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DJKWlwoAAAAJ&citation_for_view=DJKWlwoAAAAJ:2osOgNQ5qMEC" target="_blank">Cite</a></p>
     </td>
   </tr>
 </table>
